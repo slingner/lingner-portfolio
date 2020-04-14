@@ -1,36 +1,38 @@
-import styled from 'styled-components';
-import { colors } from '../constants';
-import { Link } from 'react-router-dom';
+import styled from "styled-components/macro";
+import { colors } from "../constants";
+import { Link } from "react-router-dom";
 
 export const NavWrapper = styled.header`
-  /* background-color: ${colors.darkgrey}; */
+  /* border-bottom: 1px solid ${colors.coral}; */
   display: flex;
-  flex-direction: row;
-  padding: 10px 20px;
-  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 10px;
+  justify-content: center; 
   overflow: hidden;
-
-  .mobile {
+  position: sticky;
+  top: 0;
+  background-color: ${colors.offwhite};
+  /* height: 60px; */
+  /* .mobile {
     display: flex;
     flex-direction: row;
-    align-self: center;
+    align-items: flex-start;
     height: 40px;
-    width: fit-content;
-    justify-items: right;
-  }
+
+  } */
 `;
 
 export const Logo = styled(Link)`
-  font-size: 20px;
-  color: ${colors.white};
+  font-size: 30px;
+  color: ${colors.darkergrey};
   text-decoration: none;
   font-weight: bolder;
   align-self: center;
   margin-top: 7px;
-  
-  :hover{
+
+  :hover {
     cursor: pointer;
-    fill: ${colors.teal}
+    color: ${colors.coral};
   }
 `;
 
@@ -38,23 +40,21 @@ export const ScottLogo = styled.img`
   width: 45%;
 
   @media (min-width: 600px) {
-    width: 30%;
+    width: 19%;
     height: auto;
-  } 
-
+  }
 `;
-
 
 export const MenuLink = styled(Link)`
   font-size: 16px;
   color: ${colors.white};
   text-decoration: none;
   margin-left: 25px;
-  align-self: center;
-  
-  :hover{
+  align-items: flex-end;
+
+  :hover {
     cursor: pointer;
-    color: ${colors.coral}
+    color: ${colors.coral};
   }
 `;
 
@@ -62,13 +62,14 @@ export const MobileButton = styled.div`
   background: transparent;
   border: none;
   display: none;
-  /* justify-content: flex-end; */
+  /* align-self: left; */
   /* align-content: center; */
-  margin: auto;
+  /* margin: 0px auto; */
+  margin-top: 15px;
 
   @media screen and (max-width: 768px) {
-    display: flex;
-    flex-direction: flex-end;
+    display: block;
+    height: 40px;
   }
 
   :hover {

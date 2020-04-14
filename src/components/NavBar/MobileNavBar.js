@@ -1,30 +1,36 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { colors } from '../constants';
 import Navigation from './Navigation';
 
 const MobileNav = styled.nav`
-  width: fit-content;
-  margin: 0px;
-  padding: 10px;
-  background: ${colors.teal};
-  opacity: 0.9;
-  border-radius: 4px;
-  color: ${colors.darkgrey};
-  align-self: flex-end;
-  position: absolute;
-  top: 70px;
-  right: 0;
-
+  display: flex;
+  flex-direction: column;
+  background-color: ${colors.darkgrey};
+  height: 100vh;
+  text-align: center;
+  color: white;
   @media screen and (min-width: 768px) {
-      display: none;
-    }
+    display: none;
+  }
+`;
+
+export const StyledLine = styled.div`
+  height: 1px;
+  width: 10px;
 `;
 
 const MobileNavBar = (props) => {
   return (
-    <MobileNav displayMobileNavBar={props.displayMobileNavBar}>
-      <Navigation direction='column' color={colors.darkgrey}/>
+    <MobileNav
+      onClick={props.toggleNav}
+      displayMobileNavBar={props.displayMobileNavBar}
+      classNames="fade"
+    >
+      <p style={{ margin: '20px', textAlign: 'left' }}>SCOTT LINGNER</p>
+
+      <Navigation direction="column" color={colors.white} />
     </MobileNav>
   );
 };

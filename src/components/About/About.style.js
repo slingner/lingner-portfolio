@@ -1,31 +1,36 @@
-import styled from 'styled-components';
-import { colors } from '../constants';
+import styled from "styled-components/macro";
+import { colors } from "../constants";
 
+export const AboutPageWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: ${colors.offwhite};
+  height: 100vh;
+  padding: 100px;
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+`;
 
 export const AboutContent = styled.p`
-text-align: center;
-padding: 20px 50px 0px 50px;
-margin: auto;
-color: ${colors.darkgrey};
-font-size: 16px;
-
-
-@media (min-width: 600px) {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  margin: 0 150px 0 150px;
-} 
+  color: ${colors.darkgrey};
+  font-size: 20px;
+  padding: 20px;
+  line-height: 28px;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+  @media (min-width: 900px) {
+    text-align: left;
+  }
 `;
 
 export const ScottPhoto = styled.img`
-  width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 100%;
+  margin: auto;
+  padding: 40px;
 
-  @media (min-width: 600px) {
-    width: 14%;
-  } 
+  /* @media (min-width: 600px) {
+    height: 50%;
+  } */
 `;

@@ -1,11 +1,11 @@
-import React from 'react';
-import Navigation from './Navigation';
-import styled from 'styled-components';
-import { colors } from '../constants';
+import React from "react";
+import Navigation from "./Navigation";
+import styled from "styled-components";
+import { colors } from "../constants";
 
 const DesktopNav = styled.nav`
-  display: flex;
-  flex-direction: row;
+  display: none;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   /* background: ${colors.darkgrey}; */
@@ -16,20 +16,25 @@ const DesktopNav = styled.nav`
 
     
   @media screen and (max-width: 768px) {
-      display: none;
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     }
   }
   
   .ul {
     display:flex;
     flex-direction: row;
+    
   }
 `;
 
 const DesktopNavBar = (props) => {
   return (
     <DesktopNav>
-      <Navigation direction='row' marginLeft='25px'/>
+      <Navigation />
     </DesktopNav>
   );
 };
