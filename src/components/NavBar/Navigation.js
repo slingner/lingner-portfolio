@@ -32,7 +32,8 @@ const NavItem = styled(Link)`
 const Navigation = (props) => {
   return (
     <NavLinks direction={props.direction}>
-        <li className='nav-links' >
+
+        <li className='nav-links' color={props.color}>
           <NavItem to='/about' color={props.color}>
             About
           </NavItem>
@@ -49,6 +50,7 @@ const Navigation = (props) => {
             Contact
           </NavItem>
         </li>
+        
       </NavLinks>
   );
 };

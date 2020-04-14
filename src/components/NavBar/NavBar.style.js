@@ -35,11 +35,10 @@ export const Logo = styled(Link)`
 `;
 
 export const ScottLogo = styled.img`
-  width: 40%;
-
+  width: 45%;
 
   @media (min-width: 600px) {
-    width: 24%;
+    width: 30%;
     height: auto;
   } 
 
@@ -53,7 +52,6 @@ export const MenuLink = styled(Link)`
   margin-left: 25px;
   align-self: center;
   
-
   :hover{
     cursor: pointer;
     color: ${colors.coral}
@@ -71,7 +69,6 @@ export const MobileButton = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: flex-end;
-    
   }
 
   :hover {

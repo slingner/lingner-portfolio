@@ -7,13 +7,13 @@
   margin: 0;
 }
 
-body {
+html, body {
   margin: 0 !important;
   padding: 0 !important;
+  height: 100%;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
   
 }
 
