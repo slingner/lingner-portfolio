@@ -13,7 +13,7 @@ export const StyledFooter = styled.footer`
   text-align: left;
   margin-left: 20px;
   bottom: 0;
-  z-index: 10;
+  z-index: 20;
 `;
 
 const GitHub = React.forwardRef(({ className, ...props }, ref) => {

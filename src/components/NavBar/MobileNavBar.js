@@ -8,6 +8,7 @@ const MobileNav = styled.nav`
   display: flex;
   /* flex-direction: column; */
   background-color: ${colors.darkgrey};
+
   z-index: 15;
   height: 100%;
   text-align: center;

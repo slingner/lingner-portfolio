@@ -11,12 +11,13 @@ export const NavWrapper = styled.header`
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 2;
-  background-color: white;
+  left: 0;
+  z-index: 18;
+  /* background-color: white; */
   
-  .mobile {
+  /* .mobile {
     background-color: white;
-  }
+  } */
   /* height: 60px; */
  
 `;

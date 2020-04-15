@@ -8,18 +8,16 @@ export const StyledDiv = styled.div`
   margin-top: 40px;
   text-align: center;
   position: relative;
-
+  /* background-color: ${colors.teal}; */
   @media screen and (max-width: 600px) {
   }
-
-  :hover {
-  }
+  z-index: 17;
 `;
 
 export const TextOnImage = styled.div`
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  top: 30%;
+  top: 60%;
   left: 30%;
   transform: translate(-50%, -50%);
   font-size: ${({ fontsize }) => (fontsize ? fontsize : '40px')};
@@ -31,8 +29,8 @@ export const TextOnImage = styled.div`
 export const SubTextOnImage = styled.div`
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  top: 60%;
-  left: 60%;
+  top: 80%;
+  left: 65%;
   transform: translate(-50%, -50%);
   font-size: ${({ fontsize }) => (fontsize ? fontsize : '40px')};
   color: ${colors.darkgrey};
@@ -43,8 +41,9 @@ export const SubTextOnImage = styled.div`
 export const Image = styled.img`
   margin-left: auto;
   margin-right: auto;
+  margin-top: 120px;
   width: 93%;
-  opacity: 0.2;
+  opacity: 0.3;
 
   @media (min-width: 600px) {
     width: 70%;
