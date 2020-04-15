@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/display-name */
-import React from "react";
-import styled from "styled-components/macro";
-import { colors } from "../constants";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import cx from "classnames";
+import React from 'react';
+import styled from 'styled-components/macro';
+import { colors } from '../constants';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import cx from 'classnames';
 
 export const StyledFooter = styled.footer`
   display: flex;
@@ -13,12 +13,13 @@ export const StyledFooter = styled.footer`
   text-align: left;
   margin-left: 20px;
   bottom: 0;
+  z-index: 10;
 `;
 
 const GitHub = React.forwardRef(({ className, ...props }, ref) => {
   return (
-    <button className={cx("Button", className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={["fab", "github"]} />
+    <button className={cx('Button', className)} ref={ref} {...props}>
+      <FontAwesomeIcon icon={['fab', 'github']} />
     </button>
   );
 });
@@ -32,7 +33,7 @@ export const GithubButton = styled(GitHub)`
 
   :hover {
     cursor: pointer;
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 
   :visited {
@@ -40,14 +41,14 @@ export const GithubButton = styled(GitHub)`
   }
 
   :focus {
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 `;
 
 const LinkedIn = React.forwardRef(({ className, ...props }, ref) => {
   return (
-    <button className={cx("Button", className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+    <button className={cx('Button', className)} ref={ref} {...props}>
+      <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
     </button>
   );
 });
@@ -61,7 +62,7 @@ export const LinkedInButton = styled(LinkedIn)`
 
   :hover {
     cursor: pointer;
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 
   :visited {
@@ -69,13 +70,13 @@ export const LinkedInButton = styled(LinkedIn)`
   }
 
   :focus {
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 `;
 
 const Email = React.forwardRef(({ className, ...props }, ref) => {
   return (
-    <button className={cx("Button", className)} ref={ref} {...props}>
+    <button className={cx('Button', className)} ref={ref} {...props}>
       <FontAwesomeIcon icon="envelope" />
     </button>
   );
@@ -90,7 +91,7 @@ export const EmailButton = styled(Email)`
 
   :hover {
     cursor: pointer;
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 
   :visited {
@@ -98,7 +99,7 @@ export const EmailButton = styled(Email)`
   }
 
   :focus {
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 `;
 
@@ -114,7 +115,7 @@ export const LinkWrap = styled.a`
   }
 
   :focus {
-    color: ${colors.coral};
+    color: ${colors.blue};
   }
 `;
 

@@ -1,25 +1,24 @@
-import styled from "styled-components/macro";
-import { colors } from "../constants";
-import { Link } from "react-router-dom";
+import styled from 'styled-components/macro';
+import { colors } from '../constants';
+import { Link } from 'react-router-dom';
 
 export const NavWrapper = styled.header`
   /* border-bottom: 1px solid ${colors.coral}; */
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
+  /* display: flex;
+  flex-direction: column; */
   justify-content: center; 
-  overflow: hidden;
-  position: sticky;
+  height: 100%;
+  width: 100%;
+  position: fixed;
   top: 0;
-  background-color: ${colors.offwhite};
+  z-index: 2;
+  background-color: white;
+  
+  .mobile {
+    background-color: white;
+  }
   /* height: 60px; */
-  /* .mobile {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    height: 40px;
-
-  } */
+ 
 `;
 
 export const Logo = styled(Link)`
@@ -59,16 +58,17 @@ export const MenuLink = styled(Link)`
 `;
 
 export const MobileButton = styled.div`
-  background: transparent;
+  /* background: ${colors.darkgrey}; */
   border: none;
   display: none;
-  /* align-self: left; */
+  background-color: white;
   /* align-content: center; */
   /* margin: 0px auto; */
-  margin-top: 15px;
+  padding: 15px;
+  margin: 10px;
 
   @media screen and (max-width: 768px) {
-    display: block;
+    display: inline-block;
     height: 40px;
   }
 
