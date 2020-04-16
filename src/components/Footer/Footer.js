@@ -3,103 +3,19 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import cx from 'classnames';
+import { GithubButton, EmailButton, LinkedInButton } from '../Button/Button';
 
 export const StyledFooter = styled.footer`
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  text-align: left;
-  margin-left: 20px;
-  bottom: 0;
-  z-index: 20;
-`;
+  display: none;
 
-const GitHub = React.forwardRef(({ className, ...props }, ref) => {
-  return (
-    <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'github']} />
-    </button>
-  );
-});
-
-export const GithubButton = styled(GitHub)`
-  background: transparent;
-  border: none;
-  font-size: 30px;
-  color: ${colors.white};
-  padding: 10px 15px 10px 15px;
-
-  :hover {
-    cursor: pointer;
-    color: ${colors.blue};
-  }
-
-  :visited {
-    color: ${colors.teal};
-  }
-
-  :focus {
-    color: ${colors.blue};
-  }
-`;
-
-const LinkedIn = React.forwardRef(({ className, ...props }, ref) => {
-  return (
-    <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-    </button>
-  );
-});
-
-export const LinkedInButton = styled(LinkedIn)`
-  background: transparent;
-  border: none;
-  font-size: 30px;
-  color: ${colors.white};
-  padding: 10px 15px 10px 15px;
-
-  :hover {
-    cursor: pointer;
-    color: ${colors.blue};
-  }
-
-  :visited {
-    color: ${colors.teal};
-  }
-
-  :focus {
-    color: ${colors.blue};
-  }
-`;
-
-const Email = React.forwardRef(({ className, ...props }, ref) => {
-  return (
-    <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon="envelope" />
-    </button>
-  );
-});
-
-export const EmailButton = styled(Email)`
-  background: transparent;
-  border: none;
-  font-size: 30px;
-  color: ${colors.white};
-  padding: 10px 15px 10px 15px;
-
-  :hover {
-    cursor: pointer;
-    color: ${colors.blue};
-  }
-
-  :visited {
-    color: ${colors.teal};
-  }
-
-  :focus {
-    color: ${colors.blue};
+  @media screen and (min-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-align: left;
+    margin-left: 20px;
+    bottom: 0;
+    z-index: 20;
   }
 `;
 

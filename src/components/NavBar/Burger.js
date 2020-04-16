@@ -23,7 +23,7 @@ const StyledBurger = styled.button`
   div {
     /* padding: 10px; */
     width: 1.5rem;
-    height: 0.2em;
+    height: 0.5em;
     background-color: ${colors.darkgrey};
     border-radius: 1px;
     transition: all 0.3s linear;
@@ -32,7 +32,7 @@ const StyledBurger = styled.button`
 
     :first-child {
       transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
-      background: ${({ open }) => (open ? colors.darkergrey : colors.darkgrey)};
+      background: ${({ open }) => (open ? colors.white : colors.darkgrey)};
     }
 
     :nth-child(2) {
@@ -42,7 +42,7 @@ const StyledBurger = styled.button`
 
     :nth-child(3) {
       transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
-      background: ${({ open }) => (open ? colors.darkergrey : colors.darkgrey)};
+      background: ${({ open }) => (open ? colors.white : colors.darkgrey)};
     }
   }
 `;

@@ -6,9 +6,30 @@ import { BrowserRouter } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
-import { faArrowLeft, faTrash, faTimes, faPlus, faMinus, faAngleDown, faShare, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faArrowLeft,
+  faGlobe,
+  faTrash,
+  faTimes,
+  faPlus,
+  faMinus,
+  faAngleDown,
+  faShare,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faPlus, faMinus, faTrash, faTimes, faArrowLeft, faAngleDown, faShare, faEnvelope);
+library.add(
+  fab,
+  faPlus,
+  faGlobe,
+  faMinus,
+  faTrash,
+  faTimes,
+  faArrowLeft,
+  faAngleDown,
+  faShare,
+  faEnvelope
+);
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,4 +37,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
-

@@ -1,7 +1,7 @@
-import React from "react";
-import Navigation from "./Navigation";
-import styled from "styled-components";
-import { colors } from "../constants";
+import React from 'react';
+import Navigation from './Navigation';
+import styled from 'styled-components';
+import { colors } from '../constants';
 
 const DesktopNav = styled.nav`
   display: none;
@@ -9,14 +9,15 @@ const DesktopNav = styled.nav`
   justify-content: flex-end;
   align-items: center;
   /* background: ${colors.darkgrey}; */
-  /* color: ${colors.darkgrey}; */
-
+  color: ${colors.darkgrey};
+  font-size: 40px;
+  /* z-index: 30; */
   .nav-links{
     margin-left: 20px;
 
     
   @media screen and (max-width: 768px) {
-      
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

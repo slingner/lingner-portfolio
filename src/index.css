@@ -11,9 +11,14 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   height: 100%;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 code {

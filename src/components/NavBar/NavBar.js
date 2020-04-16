@@ -11,10 +11,10 @@ function NavBar() {
   const toggleTrueFalse = () => setMobileNav(!mobileNav);
 
   return (
-    <NavWrapper>
-      <div className="mobile">
-        <DesktopNavBar />
+    <NavWrapper open={mobileNav}>
+      {/* <DesktopNavBar /> */}
 
+      <div className="mobile">
         <MobileButton type="button" onClick={toggleTrueFalse}>
           <Burger open={mobileNav} />
         </MobileButton>

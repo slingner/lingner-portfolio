@@ -1,18 +1,49 @@
-import React from 'react';
-// import { PageWrapper } from '../constants';
-// import About from '../About/About';
-// import Work from '../Work/Work';
-import { Image, StyledDiv, TextOnImage, SubTextOnImage } from './Home.style';
+/* eslint-disable react/no-unescaped-entities */
+import React, { useRef, useEffect } from 'react';
+import { AngleDown } from '../Button/Button';
+import {
+  Image,
+  StyledDiv,
+  TextOnImage,
+  TextOnImage2,
+  SubText,
+} from './Home.style';
 import Logo from './scottlogo.png';
+import { colors } from '../constants';
+import Work from '../Work/Work';
 
-function Home() {
+const useScroll = () => {
+  const htmlElRef = useRef(null);
+  const executeScroll = () => window.scrollTo(0, htmlElRef.current.offsetTop);
+
+  return [executeScroll, htmlElRef];
+};
+
+export default function Home() {
+  const [executeScroll, htmlElRef] = useScroll();
+  // useEffect(executeScroll, []); // Runs after component mounts
+
   return (
-    <StyledDiv>
-      <Image src={Logo} className="img" alt="dashboard-view" />
-      <TextOnImage> Scott </TextOnImage>
-      <SubTextOnImage> Lingner </SubTextOnImage>
-    </StyledDiv>
+    <div>
+      <StyledDiv>
+        <Image src={Logo} className="img" alt="dashboard-view" />
+        <TextOnImage> Scott </TextOnImage>
+        <TextOnImage2> Lingner </TextOnImage2>
+        <SubText>
+          I'm a San Francisco based software engineer focused on creating
+          beautiful, efficient, and impactful applications.
+        </SubText>
+
+        <AngleDown
+          aria-label="Click to scroll down the page"
+          className="bounce"
+          style={{ color: colors.darkgrey }}
+          onClick={executeScroll}
+        />
+      </StyledDiv>
+      <div ref={htmlElRef}>
+        <Work />
+      </div>
+    </div>
   );
 }
-
-export default Home;

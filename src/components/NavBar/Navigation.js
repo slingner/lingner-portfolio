@@ -10,25 +10,30 @@ const NavLinks = styled.ul`
   /* align-items: flex-end; */
   /* justify-content: flex-end; */
   /* margin: auto; */
-  margin-right: 30px;
-  margin-top: 80px;
+  /* padding: 20px; */
+  margin-right: 18%;
+  margin-top: 20%;
   text-align: right;
   display: flex;
   flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
 `;
 
 const NavItem = styled(Link)`
-  color: ${(props) => (props.color ? props.color : colors.darkgrey)};
+  color: ${(props) => (props.color ? props.color : colors.white)};
   text-decoration: none;
   margin: 0px auto;
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Raleway', sans-serif;
-  margin-left: ${(props) => (props ? props.marginLeft : '0px')};
 
   :hover {
     cursor: pointer;
     color: ${colors.blue};
     /* box-shadow: 4px 2px 5px 1px rgba(140, 140, 140, 0.85); */
+  }
+
+  @media (max-width: 374px) {
+    text-align: left;
+    font-size: 60px;
   }
 `;
 
