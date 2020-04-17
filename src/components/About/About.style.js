@@ -8,7 +8,7 @@ export const AboutPageWrap = styled.div`
   height: 100%;
   @media (min-width: 900px) {
     flex-direction: row;
-    padding: 100px;
+    padding: 0 180px 0 180px;
   }
 `;
 

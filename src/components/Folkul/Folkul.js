@@ -2,7 +2,6 @@ import React from 'react';
 import { FolkulLogo1 } from '../Work/Work.style';
 import {
   ReactLogo,
-  CssLogo,
   NodeLogo,
   TechWrapper,
   LiveLinkButton,
@@ -14,6 +13,9 @@ import {
   ProjectSubHeader,
   Image,
   LinkWrap,
+  PostgresLogo1,
+  StyledComponentsLogo1,
+  StyledP,
 } from '../Work/Work.style';
 import dashboard from '../Work/Assets/DASHBOARD.gif';
 
@@ -23,34 +25,12 @@ export default function Folkul() {
       <FolkulLogo1 />
 
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>
-      <LinkWrap
-        href="https://folkul.now.sh"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's Folkul Application"
-      >
-        <Image
-          src={dashboard}
-          alt="Folkul-Gif"
-          aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
-        />
-      </LinkWrap>
-      <p>
+      <StyledP>
         Folkul is a place where you can privately gather your thoughts - this
         can be small ideas to the next greatest invention. You can connect to
         other users and then share this idea with them - getting criticism,
         feedback and overall collaboration.
-      </p>
-      <br />
-      <p>
-        React.js, Styled Components, Node.js, Express.js, PostgreSQL, Enzyme,
-        Mocha, Chai.
-      </p>
-      <TechWrapper>
-        <ReactLogo />
-        <CssLogo />
-        <NodeLogo />
-      </TechWrapper>
+      </StyledP>
 
       <TechWrapper>
         <LinkWrap
@@ -69,6 +49,25 @@ export default function Folkul() {
         >
           <LiveLinkButton style={{ color: colors.darkgrey }} />
         </LinkWrap>
+      </TechWrapper>
+      <LinkWrap
+        href="https://folkul.now.sh"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Link to Scott Lingner's Folkul Application"
+      >
+        <Image
+          src={dashboard}
+          alt="Folkul-Gif"
+          aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
+        />
+      </LinkWrap>
+
+      <TechWrapper>
+        <ReactLogo />
+        <StyledComponentsLogo1 />
+        <PostgresLogo1 />
+        <NodeLogo />
       </TechWrapper>
     </ContentWrapper>
   );

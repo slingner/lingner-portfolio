@@ -14,8 +14,10 @@ import {
   ProjectSubHeader,
   Image,
   LinkWrap,
+  PostgresLogo2,
+  StyledP,
 } from '../Work/Work.style';
-import dashboard from '../Work/Assets/DASHBOARD.gif';
+import frenchmoi from './frenchmoi.png';
 
 export default function FrenchMoi() {
   return (
@@ -24,29 +26,13 @@ export default function FrenchMoi() {
       <ProjectSubHeader>
         Learn French through spaced-repetition learning
       </ProjectSubHeader>
-      <LinkWrap
-        href="https://folkul.now.sh"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's Folkul Application"
-      >
-        <Image
-          src={dashboard}
-          alt="Folkul-Gif"
-          aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
-        />
-      </LinkWrap>
-      <p></p>
-      <p>
-        Front-end: React.js, CSS, media queries Server: PostgreSQL Hosting/SaaS:
-        Heroku Development Environment: Zeit Now Testing: Cypress, Mocha, Chai
-      </p>
-      <TechWrapper>
-        <ReactLogo />
-        <CssLogo />
-        <NodeLogo />
-      </TechWrapper>
-
+      <StyledP>
+        French Moi is an app that utilizes spaced-repetition to help users
+        memorize French words. The user will have the option to login or signup,
+        and then will be directed to a dashboard displaying their total correct
+        answers, a list of French words to memorize, as well as the overall
+        number count for correct and incorrect answers.
+      </StyledP>
       <TechWrapper>
         <LinkWrap
           href="https://github.com/thinkful-ei-jaguar/FrenchMe-Client-Robert-Scott"
@@ -64,6 +50,25 @@ export default function FrenchMoi() {
         >
           <LiveLinkButton style={{ color: colors.darkgrey }} />
         </LinkWrap>
+      </TechWrapper>
+      <LinkWrap
+        href="https://folkul.now.sh"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Link to Scott Lingner's Folkul Application"
+      >
+        <Image
+          src={frenchmoi}
+          alt="Folkul-Gif"
+          aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
+        />
+      </LinkWrap>
+
+      <TechWrapper>
+        <ReactLogo style={{ color: colors.darkgrey }} />
+        <CssLogo style={{ color: colors.darkgrey }} />
+        <PostgresLogo2 />
+        <NodeLogo style={{ color: colors.darkgrey }} />
       </TechWrapper>
     </ContentWrapper>
   );

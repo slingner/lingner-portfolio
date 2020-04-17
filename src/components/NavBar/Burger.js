@@ -14,17 +14,20 @@ const StyledBurger = styled.button`
   cursor: pointer;
   padding: 0;
   z-index: 10;
-  margin-left: 10px;
 
   &:focus {
     outline: none;
   }
 
   div {
+    /* filter: invert(0.6); */
+    /* clip-path: fill-box(95%); */
+    /* box-shadow: 2px 3px 5px 0px rgba(240, 240, 240, 0.2); */
+    /* mix-blend-mode: color-burn; */
     /* padding: 10px; */
     width: 1.5rem;
     height: 0.5em;
-    background-color: ${colors.darkgrey};
+    background-color: ${colors.white};
     border-radius: 1px;
     transition: all 0.3s linear;
     /* position: fixed; */
@@ -32,7 +35,7 @@ const StyledBurger = styled.button`
 
     :first-child {
       transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
-      background: ${({ open }) => (open ? colors.white : colors.darkgrey)};
+      background: ${({ open }) => (open ? colors.white : colors.white)};
     }
 
     :nth-child(2) {
@@ -42,7 +45,7 @@ const StyledBurger = styled.button`
 
     :nth-child(3) {
       transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
-      background: ${({ open }) => (open ? colors.white : colors.darkgrey)};
+      background: ${({ open }) => (open ? colors.white : colors.white)};
     }
   }
 `;

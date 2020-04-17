@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
 
@@ -18,7 +18,7 @@ const NavLinks = styled.ul`
   flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
 `;
 
-const NavItem = styled(Link)`
+const NavItem = styled.p`
   color: ${(props) => (props.color ? props.color : colors.white)};
   text-decoration: none;
   margin: 0px auto;
@@ -41,19 +41,22 @@ const Navigation = (props) => {
   return (
     <NavLinks direction={props.direction}>
       <li className="nav-links" color={props.color}>
-        <NavItem onClick={props.toggleNav} to="/about" color={props.color}>
+        <NavItem
+          onClick={(props.toggleNav, props.executeScroll1)}
+          color={props.color}
+        >
           ABOUT
         </NavItem>
       </li>
 
       <li className="nav-links" color={props.color}>
-        <NavItem onClick={props.toggleNav} to="/work" color={props.color}>
+        <NavItem onClick={props.toggleNav} color={props.color}>
           WORK
         </NavItem>
       </li>
 
       <li className="nav-links" color={props.color}>
-        <NavItem onClick={props.toggleNav} to="/contact" color={props.color}>
+        <NavItem onClick={props.toggleNav} color={props.color}>
           CONTACT
         </NavItem>
       </li>

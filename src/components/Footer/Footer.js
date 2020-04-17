@@ -12,8 +12,9 @@ export const StyledFooter = styled.footer`
     display: flex;
     flex-direction: column;
     position: fixed;
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
+
     bottom: 0;
     z-index: 20;
   }
@@ -40,8 +41,14 @@ export const StyledLine = styled.div`
   flex-direction: column;
   height: 90px;
   width: 1px;
+  padding: 2px;
   background-color: ${colors.white};
-  margin-left: 28px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+  :nth-child(1) {
+    margin-bottom: 5px;
+  }
 `;
 
 const Footer = () => (

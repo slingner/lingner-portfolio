@@ -6,24 +6,15 @@ import Filter from '../Filter/Filter';
 import FrenchMoi from '../FrenchMoi/FrenchMoi';
 import About from '../About/About';
 
-function Work() {
+export default function Work() {
   return (
     <PageWrapper>
-      <PageHeader
-        style={{
-          backgroundColor: colors.darkgrey,
-          color: colors.white,
-          padding: '40px',
-        }}
-      >
-        Projects
-      </PageHeader>
+      <PageHeader>Projects</PageHeader>
       <Folkul />
       <Filter />
       <FrenchMoi />
+      <PageHeader>About</PageHeader>
       <About />
     </PageWrapper>
   );
 }
-
-export default Work;

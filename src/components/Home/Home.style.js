@@ -7,15 +7,21 @@ export const StyledDiv = styled.div`
   position: relative;
   background-color: transparent;
   height: 100vh;
+
   @media screen and (max-width: 600px) {
   }
   z-index: 17;
+
+  #divfix {
+    position: sticky;
+    z-index: 3000;
+  }
 `;
 
 export const TextOnImage = styled.div`
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  top: 35%;
+  top: 67%;
   left: 30%;
   transform: translate(-50%, -50%);
   font-size: ${({ fontsize }) => (fontsize ? fontsize : '40px')};
@@ -23,15 +29,8 @@ export const TextOnImage = styled.div`
   font-weight: bolder;
   letter-spacing: 7px;
 
-  /* @media only screen and (min-device-width: 768px) and (max-device-width: 1400px) {
-    //your styles here
-    top: 15%;
-    left: 25%;
-    font-size: ${({ fontsize }) => (fontsize ? fontsize : '55px')};
-  } */
-
   @media (min-width: 500px) {
-    top: 15%;
+    top: 48%;
     left: 35%;
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '3em')};
   }
@@ -40,7 +39,7 @@ export const TextOnImage = styled.div`
 export const TextOnImage2 = styled.div`
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  top: 44%;
+  top: 84%;
   left: 65%;
   transform: translate(-50%, -50%);
   font-size: ${({ fontsize }) => (fontsize ? fontsize : '40px')};
@@ -50,7 +49,7 @@ export const TextOnImage2 = styled.div`
 
   @media (min-width: 500px) {
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '3em')};
-    top: 25%;
+    top: 75%;
     left: 65%;
   }
 `;

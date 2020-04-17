@@ -36,15 +36,11 @@ export const MenuLink = styled(Link)`
 `;
 
 export const MobileButton = styled.div`
-  /* background: ${colors.darkgrey}; */
   border: none;
   display: none;
   background: transparent;
-
-  /* align-content: center; */
-  /* margin: 0px auto; */
   padding: 15px;
-  margin: 15px;
+  margin: 5px;
 
   @media screen and (max-width: 768px) {
     display: inline-block;
@@ -55,26 +51,3 @@ export const MobileButton = styled.div`
     cursor: pointer;
   }
 `;
-
-// export const Logo = styled(Link)`
-//   font-size: 30px;
-//   color: ${colors.darkergrey};
-//   text-decoration: none;
-//   font-weight: bolder;
-//   align-self: center;
-//   margin-top: 7px;
-
-//   :hover {
-//     cursor: pointer;
-//     color: ${colors.coral};
-//   }
-// `;
-
-// export const ScottLogo = styled.img`
-//   width: 45%;
-
-//   @media (min-width: 600px) {
-//     width: 19%;
-//     height: auto;
-//   }
-// `;

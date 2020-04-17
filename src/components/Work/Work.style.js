@@ -5,19 +5,21 @@ import { colors } from '../constants';
 import { ReactComponent as FokulLogo } from './Assets/FOLKUL_1.svg';
 import { ReactComponent as FilterLogo } from './Assets/filter.svg';
 import { ReactComponent as FrenchMoi } from './Assets/frenchmoi.svg';
+import { ReactComponent as PostgresLogo } from './Assets/postgresql.svg';
+import { ReactComponent as StyledComponentsLogo } from './Assets/styled-components.svg';
 
 export const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  
-  /* background-color: ${({ bgcolor }) =>
-    bgcolor ? bgcolor : colors.offwhite}; */
+`;
 
-  /* @media screen and (min-width: 768px) {
-    text-align: left;
-  } */
+export const StyledP = styled.p`
+  margin: auto;
+  width: 60%;
 
-  :hover {
+  @media (min-width: 600px) {
+    width: 40%;
+    line-height: 24px;
   }
 `;
 
@@ -25,7 +27,7 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 50px;
+  padding: 30px;
   /* background-color: ${({ bgcolor }) =>
     bgcolor ? bgcolor : colors.slategrey}; */
   text-align: center;
@@ -39,39 +41,47 @@ export const PageHeader = styled.h1`
   /* font-size: fit-content; */
   align-items: center;
   letter-spacing: 4px;
-  /* color: ${colors.darkergrey}; */
+  background-color: ${colors.darkergrey};
+  color: ${colors.white};
   text-align: center;
-  font-size: 4em;
+  font-size: 60px;
+  font-style: bolder;
+
+  /* padding: 40px; */
+
+  @media (min-width: 600px) {
+    text-align: left;
+    width: 80%;
+    background-color: transparent;
+    color: ${colors.darkergrey};
+    /* height: auto; */
+    font-size: 80px;
+    padding-left: 65px;
+    /* padding: 55px; */
+    margin-bottom: -19px;
+    z-index: 15;
+  }
 `;
 
-export const ProjectHeader = styled.h2`
-  font-size: 3em;
-  color: ${colors.offwhite};
-
-  @media screen and (max-width: 768px) {
-  }
-
-  :hover {
-  }
-`;
 export const ProjectSubHeader = styled.h3`
   font-size: 18px;
   color: ${colors.darkgrey};
-  margin-bottom: 2%;
+  margin: auto;
+  padding-bottom: 20px;
+  width: 60%;
 
-  @media screen and (max-width: 768px) {
-  }
-
-  :hover {
+  @media (min-width: 600px) {
+    width: 40%;
+    height: auto;
   }
 `;
 
 export const Image = styled.img`
   border-radius: 5px;
-  width: 90%;
+  width: 95%;
 
   @media (min-width: 600px) {
-    width: 90%;
+    width: 50%;
     height: auto;
   }
 `;
@@ -83,10 +93,11 @@ export const FolkulLogo1 = (props) => {
         aria-label="Folkul Logo - Scott Lingner's App"
         className="logo"
         style={{
-          width: '60%',
+          width: '30%',
           alignSelf: 'center',
           fill: colors.darkgrey,
           paddingBottom: '40px',
+          paddingTop: '35px',
         }}
       />
     </>
@@ -100,10 +111,11 @@ export const FilterLogo1 = (props) => {
         aria-label="Filter Logo -- Scott Lingner's App"
         className="logo"
         style={{
-          width: '40%',
+          width: '20%',
           alignSelf: 'center',
-          fill: colors.coral,
+          fill: colors.darkgrey,
           paddingBottom: '20px',
+          paddingTop: '35px',
         }}
       />
     </>
@@ -117,10 +129,58 @@ export const FrenchMoiLogo2 = (props) => {
         aria-label="Filter Logo -- Scott Lingner's App"
         className="logo"
         style={{
-          width: '88%',
+          width: '45%',
           alignSelf: 'center',
           fill: colors.black,
           paddingBottom: '20px',
+          paddingTop: '35px',
+        }}
+      />
+    </>
+  );
+};
+
+export const PostgresLogo1 = (props) => {
+  return (
+    <>
+      <PostgresLogo
+        aria-label="Postgres Logo"
+        style={{
+          width: '40px',
+          // paddingLeft: '5px',
+          // paddingRight: '5px',
+          fill: colors.white,
+        }}
+      />
+    </>
+  );
+};
+export const PostgresLogo2 = (props) => {
+  return (
+    <>
+      <PostgresLogo
+        aria-label="Postgres Logo"
+        style={{
+          width: '40px',
+          // paddingLeft: '5px',
+          // paddingRight: '5px',
+          fill: colors.darkgrey,
+        }}
+      />
+    </>
+  );
+};
+
+export const StyledComponentsLogo1 = (props) => {
+  return (
+    <>
+      <StyledComponentsLogo
+        aria-label="Styled Components Logo"
+        style={{
+          width: '80px',
+          paddingLeft: '5px',
+          paddingRight: '5px',
+          fill: colors.white,
         }}
       />
     </>

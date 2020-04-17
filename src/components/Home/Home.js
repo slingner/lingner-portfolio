@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { AngleDown } from '../Button/Button';
 import {
   Image,
@@ -26,9 +26,11 @@ export default function Home() {
   return (
     <div>
       <StyledDiv>
-        <Image src={Logo} className="img" alt="dashboard-view" />
-        <TextOnImage> Scott </TextOnImage>
-        <TextOnImage2> Lingner </TextOnImage2>
+        <div id="divfix">
+          <Image src={Logo} className="img" alt="dashboard-view" />
+          <TextOnImage> Scott </TextOnImage>
+          <TextOnImage2> Lingner </TextOnImage2>
+        </div>
         <SubText>
           I'm a San Francisco based software engineer focused on creating
           beautiful, efficient, and impactful applications.
@@ -37,7 +39,7 @@ export default function Home() {
         <AngleDown
           aria-label="Click to scroll down the page"
           className="bounce"
-          style={{ color: colors.darkgrey }}
+          style={{ color: colors.darkgrey, marginTop: '40px' }}
           onClick={executeScroll}
         />
       </StyledDiv>

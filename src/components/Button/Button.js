@@ -44,7 +44,9 @@ export const AngleDown = styled(AngleDownButton)`
 export const TechWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: auto;
+  padding: 10px 15px 5px 5px;
 `;
 
 // export const Button = React.forwardRef(({ className, ...props }, ref) => {
@@ -64,7 +66,6 @@ export const ReactLogo = styled(React1)`
   border: none;
   font-size: 30px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 `;
 
 const CSS3 = React.forwardRef(({ className, ...props }, ref) => {
@@ -80,7 +81,6 @@ export const CssLogo = styled(CSS3)`
   border: none;
   font-size: 30px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 `;
 
 const Node = React.forwardRef(({ className, ...props }, ref) => {
@@ -94,9 +94,8 @@ const Node = React.forwardRef(({ className, ...props }, ref) => {
 export const NodeLogo = styled(Node)`
   background: transparent;
   border: none;
-  font-size: 30px;
+  font-size: 34px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 `;
 
 const LiveLink = React.forwardRef(({ className, ...props }, ref) => {
@@ -112,7 +111,6 @@ export const LiveLinkButton = styled(LiveLink)`
   border: none;
   font-size: 30px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 
   :hover {
     cursor: pointer;
@@ -132,7 +130,6 @@ export const GithubButton = styled(GitHub)`
   border: none;
   font-size: 30px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 
   :hover {
     cursor: pointer;
@@ -161,7 +158,6 @@ export const LinkedInButton = styled(LinkedIn)`
   border: none;
   font-size: 30px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 
   :hover {
     cursor: pointer;
@@ -190,7 +186,6 @@ export const EmailButton = styled(Email)`
   border: none;
   font-size: 30px;
   color: ${colors.white};
-  padding: 10px 15px 10px 15px;
 
   :hover {
     cursor: pointer;

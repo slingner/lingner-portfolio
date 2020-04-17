@@ -12,8 +12,7 @@ function NavBar() {
 
   return (
     <NavWrapper open={mobileNav}>
-      {/* <DesktopNavBar /> */}
-
+      <DesktopNavBar close={mobileNav} />
       <div className="mobile">
         <MobileButton type="button" onClick={toggleTrueFalse}>
           <Burger open={mobileNav} />
