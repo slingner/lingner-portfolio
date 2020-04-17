@@ -36,7 +36,6 @@ export const MenuLink = styled(Link)`
 
 export const MobileButton = styled.div`
   border: none;
-  /* display: none; */
   background: transparent;
   padding: 15px;
   margin: 5px;

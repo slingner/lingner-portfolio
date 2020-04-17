@@ -28,17 +28,13 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   width: 100%;
   padding: 30px;
-  /* background-color: ${({ bgcolor }) =>
-    bgcolor ? bgcolor : colors.slategrey}; */
   text-align: center;
   > p {
     font-size: 16px;
-    /* padding: 1.5%; */
   }
 `;
 
 export const PageHeader = styled.h1`
-  /* font-size: fit-content; */
   align-items: center;
   letter-spacing: 4px;
   background-color: transparent;
@@ -55,10 +51,8 @@ export const PageHeader = styled.h1`
     width: 80%;
     background-color: transparent;
     color: ${colors.darkergrey};
-    /* height: auto; */
     font-size: 80px;
     padding-left: 65px;
-    /* padding: 55px; */
     margin-bottom: -19px;
     z-index: 15;
   }
@@ -148,8 +142,6 @@ export const PostgresLogo1 = (props) => {
         aria-label="Postgres Logo"
         style={{
           width: '40px',
-          // paddingLeft: '5px',
-          // paddingRight: '5px',
           fill: colors.white,
         }}
       />
@@ -163,8 +155,6 @@ export const PostgresLogo2 = (props) => {
         aria-label="Postgres Logo"
         style={{
           width: '40px',
-          // paddingLeft: '5px',
-          // paddingRight: '5px',
           fill: colors.darkgrey,
         }}
       />

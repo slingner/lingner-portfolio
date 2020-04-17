@@ -11,10 +11,6 @@ const MobileNav = styled.nav`
   width: 100%;
   text-align: center;
   color: white;
-
-  /* @media screen and (min-width: 768px) {
-    display: none;
-  } */
 `;
 
 const MobileNavBar = (props) => {

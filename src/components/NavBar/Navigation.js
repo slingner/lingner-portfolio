@@ -1,16 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
 
 const NavLinks = styled.ul`
   list-style: none;
   color: ${(props) => (props.color ? props.color : colors.white)};
-  /* align-items: flex-end; */
-  /* justify-content: flex-end; */
-  /* margin: auto; */
-  /* padding: 20px; */
   margin-right: 18%;
   margin-top: 20%;
   text-align: right;
@@ -21,7 +16,6 @@ const NavLinks = styled.ul`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* color: black; */
   }
 `;
 
@@ -35,7 +29,6 @@ const NavItem = styled.p`
   :hover {
     cursor: pointer;
     color: ${colors.blue};
-    /* box-shadow: 4px 2px 5px 1px rgba(140, 140, 140, 0.85); */
   }
 
   @media (max-width: 374px) {

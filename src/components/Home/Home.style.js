@@ -58,7 +58,6 @@ export const SubText = styled.p`
   font-size: ${({ fontsize }) => (fontsize ? fontsize : '16px')};
   color: ${colors.darkgrey};
   max-width: 80%;
-  /* position: absolute; */
   margin: 20px auto;
   margin-bottom: 5%;
 

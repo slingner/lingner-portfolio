@@ -21,7 +21,6 @@ const useScroll = () => {
 
 export default function Home() {
   const [executeScroll, htmlElRef] = useScroll();
-  // useEffect(executeScroll, []); // Runs after component mounts
 
   return (
     <div>

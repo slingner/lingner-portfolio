@@ -30,9 +30,11 @@ export default function FrenchMoi() {
       }}
     >
       <FrenchMoiLogo2 />
+
       <ProjectSubHeader>
         Learn French through spaced-repetition learning
       </ProjectSubHeader>
+
       <StyledP>
         French Moi is an app that utilizes spaced-repetition to help users
         memorize French words. The user will have the option to login or signup,
@@ -40,6 +42,7 @@ export default function FrenchMoi() {
         answers, a list of French words to memorize, as well as the overall
         number count for correct and incorrect answers.
       </StyledP>
+
       <TechWrapper>
         <LinkWrap
           href="https://github.com/thinkful-ei-jaguar/FrenchMe-Client-Robert-Scott"
@@ -49,25 +52,27 @@ export default function FrenchMoi() {
         >
           <GithubButton style={{ color: colors.darkgrey }} />
         </LinkWrap>
+
         <LinkWrap
-          href="https://folkul.now.sh"
+          href="https://frenchmoi.now.sh/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Live Link to Scott Lingner's Folkul App "
+          aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
         >
           <LiveLinkButton style={{ color: colors.darkgrey }} />
         </LinkWrap>
       </TechWrapper>
+
       <LinkWrap
-        href="https://folkul.now.sh"
+        href="https://frenchmoi.now.sh/"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's Folkul Application"
+        aria-label="Link to Scott Lingner's French Moi Spaced-Repetition Application"
       >
         <Image
           src={frenchmoi}
-          alt="Folkul-Gif"
-          aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
+          alt="FrenchMoi-Screenshot"
+          aria-label="Screenshot of Scott Lingner's French Moi Application => links to live site"
         />
       </LinkWrap>
 
@@ -77,6 +82,7 @@ export default function FrenchMoi() {
         <PostgresLogo2 />
         <NodeLogo style={{ color: colors.darkgrey }} />
       </TechWrapper>
+
       <PageHeader className="about">About</PageHeader>
     </ContentWrapper>
   );

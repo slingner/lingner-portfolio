@@ -17,7 +17,6 @@ import {
   PostgresLogo1,
   StyledP,
 } from '../Work/Work.style';
-// import dashboard from '../Work/Assets/DASHBOARD.gif';
 import filter from './Assets/filter.png';
 
 export default function Filter() {
@@ -48,22 +47,18 @@ export default function Filter() {
         </LinkWrap>
       </TechWrapper>
       <LinkWrap
-        href="https://folkul.now.sh"
+        href="https://filter-app.now.sh/"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's Folkul Application"
+        aria-label="Link to Scott Lingner's Filter Application"
       >
         <Image
           src={filter}
           alt="Filter-Screenshot"
-          aria-label="Screenshot of Scott Lingner's Filter Application"
+          aria-label="Screenshot of Scott Lingner's Filter Application => links to live App"
         />
       </LinkWrap>
 
-      {/* <p>
-        Stack includes React.js, CSS, Node.js, Express.js, PostgreSQL, Enzyme,
-        Mocha, Chai.
-      </p> */}
       <TechWrapper>
         <ReactLogo />
         <CssLogo />

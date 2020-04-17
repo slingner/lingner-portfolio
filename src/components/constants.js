@@ -13,8 +13,6 @@ export const colors = {
 };
 
 export const PageWrapper = styled.div`
-  /* background-color: ${({ bgColor }) =>
-    bgColor ? bgColor : colors.darkgrey}; */
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -23,6 +21,5 @@ export const PageWrapper = styled.div`
 
   @media (min-width: 700px) {
     padding: ${({ padding }) => (padding ? padding : '0px')};
-
-  } 
+  }
 `;
