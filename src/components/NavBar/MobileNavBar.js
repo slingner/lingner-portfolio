@@ -20,7 +20,16 @@ const MobileNav = styled.nav`
 const MobileNavBar = (props) => {
   return (
     <MobileNav displayMobileNavBar={props.displayMobileNavBar}>
-      <p style={{ padding: '20px', textAlign: 'left' }}>SCOTT LINGNER</p>
+      <p
+        style={{
+          padding: '20px',
+          textAlign: 'left',
+          borderBottom: '1px solid white',
+          borderWidth: '10px',
+        }}
+      >
+        SCOTT LINGNER
+      </p>
 
       <Navigation
         toggleNav={props.toggleNav}

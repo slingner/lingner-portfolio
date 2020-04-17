@@ -20,10 +20,10 @@ const StyledBurger = styled.button`
   }
 
   div {
-    /* filter: invert(0.6); */
+    filter: invert(0.7);
     /* clip-path: fill-box(95%); */
     /* box-shadow: 2px 3px 5px 0px rgba(240, 240, 240, 0.2); */
-    /* mix-blend-mode: color-burn; */
+    mix-blend-mode: color-dodge;
     /* padding: 10px; */
     width: 1.5rem;
     height: 0.5em;

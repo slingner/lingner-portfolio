@@ -16,12 +16,19 @@ import {
   LinkWrap,
   PostgresLogo2,
   StyledP,
+  PageHeader,
 } from '../Work/Work.style';
 import frenchmoi from './frenchmoi.png';
 
 export default function FrenchMoi() {
   return (
-    <ContentWrapper style={{ backgroundColor: colors.lightblue }}>
+    <ContentWrapper
+      style={{
+        backgroundColor: colors.lightblue,
+        paddingBottom: '0px',
+        marginBottom: '-.5px',
+      }}
+    >
       <FrenchMoiLogo2 />
       <ProjectSubHeader>
         Learn French through spaced-repetition learning
@@ -70,6 +77,7 @@ export default function FrenchMoi() {
         <PostgresLogo2 />
         <NodeLogo style={{ color: colors.darkgrey }} />
       </TechWrapper>
+      <PageHeader className="about">About</PageHeader>
     </ContentWrapper>
   );
 }

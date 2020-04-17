@@ -8,7 +8,7 @@ export const AboutPageWrap = styled.div`
   height: 100%;
   @media (min-width: 900px) {
     flex-direction: row;
-    padding: 0 180px 0 180px;
+    padding: 100px 100px;
   }
 `;
 
@@ -32,8 +32,9 @@ export const AboutContent = styled.p`
   padding: 50px;
   margin: auto;
 
-  @media (min-width: 900px) {
+  @media (min-width: 600px) {
     text-align: left;
+    width: 70%;
   }
 `;
 

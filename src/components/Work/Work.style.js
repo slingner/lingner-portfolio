@@ -41,13 +41,14 @@ export const PageHeader = styled.h1`
   /* font-size: fit-content; */
   align-items: center;
   letter-spacing: 4px;
-  background-color: ${colors.darkergrey};
-  color: ${colors.white};
+  background-color: transparent;
+  color: ${colors.darkergrey};
   text-align: center;
   font-size: 60px;
   font-style: bolder;
-
-  /* padding: 40px; */
+  margin-bottom: -14px;
+  padding-top: 20px;
+  z-index: 15;
 
   @media (min-width: 600px) {
     text-align: left;

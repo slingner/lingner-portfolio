@@ -16,6 +16,13 @@ const NavLinks = styled.ul`
   text-align: right;
   display: flex;
   flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
+
+  @media (min-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* color: black; */
+  }
 `;
 
 const NavItem = styled.p`

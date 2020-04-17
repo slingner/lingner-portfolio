@@ -13,7 +13,7 @@ export default function Work() {
       <Folkul />
       <Filter />
       <FrenchMoi />
-      <PageHeader>About</PageHeader>
+
       <About />
     </PageWrapper>
   );

@@ -10,16 +10,15 @@ export const NavWrapper = styled.div`
   top: 0;
   left: 0;
   z-index: 18;
-  background: none;
+  background: ${colors.darkgrey};
 
   .mobile {
-    background-color: ${({ open }) => (open ? colors.darkgrey : 'none')};
+    background-color: ${({ open }) => (open ? colors.darkgrey : 'transparent')};
   }
 
-  /* @media screen and (max-width: 768px) {
-    width: 0;
-    height: 0;
-  } */
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const MenuLink = styled(Link)`
@@ -37,7 +36,7 @@ export const MenuLink = styled(Link)`
 
 export const MobileButton = styled.div`
   border: none;
-  display: none;
+  /* display: none; */
   background: transparent;
   padding: 15px;
   margin: 5px;
