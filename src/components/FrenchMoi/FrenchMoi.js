@@ -83,7 +83,9 @@ export default function FrenchMoi() {
         <NodeLogo style={{ color: colors.darkgrey }} />
       </TechWrapper>
 
-      <PageHeader className="about">About</PageHeader>
+      <PageHeader id="about" className="about">
+        About
+      </PageHeader>
     </ContentWrapper>
   );
 }

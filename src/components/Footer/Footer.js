@@ -3,7 +3,12 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
-import { GithubButton, EmailButton, LinkedInButton } from '../Button/Button';
+import {
+  GithubButton,
+  EmailButton,
+  LinkedInButton,
+  AngelListButton,
+} from '../Button/Button';
 
 export const StyledFooter = styled.footer`
   display: none;
@@ -21,7 +26,20 @@ export const StyledFooter = styled.footer`
 `;
 
 export const LinkWrap = styled.a`
-  color: black;
+  list-style-type: none;
+  /* text-decoration: none; */
+  color: ${colors.white};
+  padding: 3px;
+  font-size: 22px;
+  text-align: right;
+  margin-right: 30px;
+  padding-top: 20px;
+
+  @media (min-width: 600px) {
+    margin-right: 80px;
+    font-size: 32px;
+  }
+
   :hover {
     cursor: pointer;
     color: ${colors.blue};
@@ -52,8 +70,29 @@ export const StyledLine = styled.div`
 `;
 
 const Footer = () => (
-  <StyledFooter>
+  <StyledFooter id="contact">
     <StyledLine />
+    <LinkWrap
+      href="mailto: slingner@gmail.com"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <EmailButton />
+    </LinkWrap>
+    <LinkWrap
+      href="https://angel.co/u/scott-lingner"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <AngelListButton />
+    </LinkWrap>
+    <LinkWrap
+      href="https://www.linkedin.com/in/scott-lingner/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <LinkedInButton />
+    </LinkWrap>
     <LinkWrap
       href="https://github.com/slingner"
       rel="noreferrer noopener"
@@ -62,21 +101,6 @@ const Footer = () => (
       <GithubButton />
     </LinkWrap>
 
-    <LinkWrap
-      href="https://www.linkedin.com/in/scott-lingner/"
-      rel="noreferrer noopener"
-      target="_blank"
-    >
-      <LinkedInButton />
-    </LinkWrap>
-
-    <LinkWrap
-      href="mailto: slingner@gmail.com"
-      rel="noreferrer noopener"
-      target="_blank"
-    >
-      <EmailButton />
-    </LinkWrap>
     <StyledLine />
   </StyledFooter>
 );

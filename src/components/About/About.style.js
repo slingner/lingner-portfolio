@@ -29,7 +29,9 @@ export const AboutContent = styled.p`
   padding: 20px;
   line-height: 28px;
   text-align: center;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 90px;
   margin: auto;
 
   @media (min-width: 600px) {

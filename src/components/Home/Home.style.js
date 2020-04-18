@@ -55,13 +55,14 @@ export const TextOnImage2 = styled.div`
 `;
 
 export const SubText = styled.p`
-  font-size: ${({ fontsize }) => (fontsize ? fontsize : '16px')};
+  font-size: ${({ fontsize }) => (fontsize ? fontsize : '17px')};
   color: ${colors.darkgrey};
   max-width: 80%;
   margin: 20px auto;
   margin-bottom: 5%;
 
   @media (min-width: 500px) {
+    font-size: ${({ fontsize }) => (fontsize ? fontsize : '22px')};
     margin-top: 5%;
     margin-bottom: 5%;
     max-width: 45%;

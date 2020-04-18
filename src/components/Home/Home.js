@@ -11,6 +11,7 @@ import {
 import Logo from './scottlogo.png';
 import { colors } from '../constants';
 import Work from '../Work/Work';
+import Contact from '../Contact/Contact';
 
 const useScroll = () => {
   const htmlElRef = useRef(null);
@@ -43,8 +44,9 @@ export default function Home() {
         />
       </StyledDiv>
       <div ref={htmlElRef}>
-        <Work />
+        <Work id="work" />
       </div>
+      <Contact />
     </div>
   );
 }

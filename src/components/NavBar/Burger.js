@@ -19,7 +19,7 @@ const StyledBurger = styled.button`
   }
 
   div {
-    filter: invert(0.7);
+    filter: invert(0.6);
     mix-blend-mode: color-dodge;
     width: 1.5rem;
     height: 0.5em;
@@ -30,7 +30,7 @@ const StyledBurger = styled.button`
 
     :first-child {
       transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
-      background: ${({ open }) => (open ? colors.white : colors.white)};
+      background: ${({ open }) => (open ? colors.black : colors.white)};
     }
 
     :nth-child(2) {
@@ -40,7 +40,7 @@ const StyledBurger = styled.button`
 
     :nth-child(3) {
       transform: ${({ open }) => (open ? 'rotate(-45deg)' : 'rotate(0)')};
-      background: ${({ open }) => (open ? colors.white : colors.white)};
+      background: ${({ open }) => (open ? colors.black : colors.white)};
     }
   }
 `;

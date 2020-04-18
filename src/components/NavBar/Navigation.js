@@ -2,12 +2,13 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const NavLinks = styled.ul`
   list-style: none;
   color: ${(props) => (props.color ? props.color : colors.white)};
-  margin-right: 18%;
-  margin-top: 20%;
+  margin-right: 10%;
+  margin-top: 5%;
   text-align: right;
   display: flex;
   flex-direction: ${(props) => (props.direction ? props.direction : 'column')};
@@ -19,7 +20,7 @@ const NavLinks = styled.ul`
   }
 `;
 
-const NavItem = styled.p`
+const NavItem = styled.a`
   color: ${(props) => (props.color ? props.color : colors.white)};
   text-decoration: none;
   margin: 0px auto;
@@ -29,6 +30,11 @@ const NavItem = styled.p`
   :hover {
     cursor: pointer;
     color: ${colors.blue};
+  }
+
+  @media (max-width: 600px) {
+    text-align: left;
+    font-size: 60px;
   }
 
   @media (max-width: 374px) {
@@ -41,22 +47,19 @@ const Navigation = (props) => {
   return (
     <NavLinks direction={props.direction}>
       <li className="nav-links" color={props.color}>
-        <NavItem
-          onClick={(props.toggleNav, props.executeScroll1)}
-          color={props.color}
-        >
+        <NavItem href="#about" onClick={props.toggleNav} color={props.color}>
           ABOUT
         </NavItem>
       </li>
 
       <li className="nav-links" color={props.color}>
-        <NavItem onClick={props.toggleNav} color={props.color}>
-          WORK
+        <NavItem href="#work" onClick={props.toggleNav} color={props.color}>
+          PROJECTS
         </NavItem>
       </li>
 
       <li className="nav-links" color={props.color}>
-        <NavItem onClick={props.toggleNav} color={props.color}>
+        <NavItem href="#contact" onClick={props.toggleNav} color={props.color}>
           CONTACT
         </NavItem>
       </li>

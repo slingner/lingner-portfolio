@@ -200,3 +200,31 @@ export const EmailButton = styled(Email)`
     color: ${colors.blue};
   }
 `;
+
+const AngelList = React.forwardRef(({ className, ...props }, ref) => {
+  return (
+    <button className={cx('Button', className)} ref={ref} {...props}>
+      <FontAwesomeIcon icon={['fab', 'angellist']} />
+    </button>
+  );
+});
+
+export const AngelListButton = styled(AngelList)`
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  color: ${colors.white};
+
+  :hover {
+    cursor: pointer;
+    color: ${colors.blue};
+  }
+
+  :visited {
+    color: ${colors.teal};
+  }
+
+  :focus {
+    color: ${colors.blue};
+  }
+`;

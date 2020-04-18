@@ -21,7 +21,7 @@ const MobileNavBar = (props) => {
           padding: '20px',
           textAlign: 'left',
           borderBottom: '1px solid white',
-          borderWidth: '10px',
+          // borderWidth: '10px',
         }}
       >
         SCOTT LINGNER
