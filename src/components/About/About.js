@@ -12,6 +12,7 @@ export default function About() {
         My mission as a developer is to help companies grow with beautiful,
         efficient, and impactful online applications.
         <br />
+        <br />
         My 8+ years background in the photography and advertising industry as a
         photographer and stylist translates to web development as I am
         passionate about creating compelling narratives and customer-focused

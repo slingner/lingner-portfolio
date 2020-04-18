@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DesktopNavBar from './DesktopNavBar';
+// import DesktopNavBar from './DesktopNavBar';
 import MobileNavBar from './MobileNavBar';
 import Burger from './Burger';
 import { NavWrapper, MobileButton } from './NavBar.style';

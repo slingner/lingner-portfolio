@@ -2,7 +2,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
-import { HashLink as Link } from 'react-router-hash-link';
 
 const NavLinks = styled.ul`
   list-style: none;

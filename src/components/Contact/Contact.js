@@ -11,7 +11,6 @@ import {
   ContactConentWrap,
   ContactPageHeader,
 } from './Contact.style';
-import { colors } from '../constants';
 
 function Contact() {
   return (

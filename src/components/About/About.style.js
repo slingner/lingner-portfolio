@@ -4,27 +4,27 @@ import { colors } from '../constants';
 export const AboutPageWrap = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: ${colors.offwhite};
+  background-color: ${colors.slategrey};
   height: 100%;
   @media (min-width: 900px) {
     flex-direction: row;
-    padding: 100px 100px;
+    padding: 100px;
   }
 `;
 
-export const ContactButtonWrap = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding-bottom: 20px;
+// export const ContactButtonWrap = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   margin: auto;
+//   padding-bottom: 20px;
 
-  @media (min-width: 900px) {
-    display: none;
-  }
-`;
+//   @media (min-width: 900px) {
+//     display: none;
+//   }
+// `;
 
 export const AboutContent = styled.p`
-  color: ${colors.darkgrey};
+  color: ${colors.white};
   font-size: 20px;
   padding: 20px;
   line-height: 28px;
@@ -35,18 +35,20 @@ export const AboutContent = styled.p`
   margin: auto;
 
   @media (min-width: 600px) {
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: left;
-    width: 70%;
+    width: 60%;
   }
 `;
 
 export const ScottPhoto = styled.img`
   border-radius: 100%;
   margin: auto;
-  padding: 40px;
+  padding: 20px;
   height: 40%;
 
   @media (min-width: 600px) {
-    height: 40%;
+    height: 300px;
   }
 `;
