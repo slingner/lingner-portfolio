@@ -8,7 +8,24 @@ export const AboutPageWrap = styled.div`
   height: 100%;
   @media (min-width: 900px) {
     flex-direction: row;
-    padding: 100px;
+    /* width: 50%; */
+    /* padding: 50%; */
+    margin: auto;
+    /* padding: 100px; */
+  }
+`;
+
+export const AboutWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: ${colors.slategrey};
+  /* height: 100%; */
+  @media (min-width: 900px) {
+    flex-direction: row;
+    width: 60%;
+    /* padding: 50%; */
+    margin: auto;
+    /* padding: 100px; */
   }
 `;
 
@@ -25,20 +42,21 @@ export const AboutPageWrap = styled.div`
 
 export const AboutContent = styled.p`
   color: ${colors.white};
-  font-size: 20px;
-  padding: 20px;
+  font-size: 18px;
+  /* padding: 20px; */
   line-height: 28px;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 90px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* padding-bottom: 90px; */
   margin: auto;
 
   @media (min-width: 600px) {
+    margin-top: 90px;
     padding-left: 0px;
     padding-right: 0px;
     text-align: left;
-    width: 60%;
+    width: 50%;
   }
 `;
 
@@ -46,9 +64,10 @@ export const ScottPhoto = styled.img`
   border-radius: 100%;
   margin: auto;
   padding: 20px;
-  height: 40%;
+  /* height: 40%; */
 
   @media (min-width: 600px) {
+    margin-top: 70px;
     height: 300px;
   }
 `;
