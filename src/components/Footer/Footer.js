@@ -61,12 +61,13 @@ export const StyledLine = styled.div`
   width: 1px;
   padding: 2px;
   background-color: ${colors.white};
-  margin-left: 20px;
+  margin-left: 23px;
   margin-top: 5px;
 
-  :nth-child(1) {
+  /* :nth-child(1) {
     margin-bottom: 5px;
-  }
+    margin-top: 5px;
+  } */
 `;
 
 const Footer = () => (
@@ -97,6 +98,7 @@ const Footer = () => (
       href="https://github.com/slingner"
       rel="noreferrer noopener"
       target="_blank"
+      style={{ marginBottom: '5px' }}
     >
       <GithubButton />
     </LinkWrap>

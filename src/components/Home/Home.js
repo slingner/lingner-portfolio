@@ -39,7 +39,7 @@ export default function Home() {
         <AngleDown
           aria-label="Click to scroll down the page"
           className="bounce"
-          style={{ color: colors.darkgrey, marginTop: '40px' }}
+          style={{ color: colors.darkgrey }}
           onClick={executeScroll}
         />
       </StyledDiv>

@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
+import { keyframes } from 'styled-components';
 
 export const StyledDiv = styled.div`
   align-items: center;
@@ -18,6 +19,17 @@ export const StyledDiv = styled.div`
   }
 `;
 
+export const splitTextUp = keyframes`
+  0% {text-shadow: 0 0 black,,0 0 red, 0 0 orange,0 0 yellow,0 0 green,0 0 skyblue,0 0 blue,0 0 white;} 
+  100% {text-shadow: -1px -1px black,-3px -3px red,-5px -5px orange,-7px -7px yellow,-9px -9px green,-11px -11px skyblue,-13px -13px blue,-15px -15px white;
+}
+`;
+export const splitTextDown = keyframes`
+  0% {text-shadow: 0 0 black,,0 0 red, 0 0 orange,0 0 yellow,0 0 green,0 0 skyblue,0 0 blue,0 0 white;} 
+  100% {text-shadow: 1px 1px black,3px 3px red,5px 5px orange,7px 7px yellow,9px 9px green,11px 11px skyblue,13px 13px blue,15px 15px white;
+}
+`;
+
 export const TextOnImage = styled.div`
   font-family: 'Raleway', sans-serif;
   position: absolute;
@@ -28,6 +40,10 @@ export const TextOnImage = styled.div`
   color: ${colors.darkgrey};
   font-weight: bolder;
   letter-spacing: 7px;
+
+  :hover {
+    animation: ${splitTextDown} 2s inherit;
+  }
 
   @media (min-width: 500px) {
     top: 48%;
@@ -58,13 +74,14 @@ export const SubText = styled.p`
   font-size: ${({ fontsize }) => (fontsize ? fontsize : '17px')};
   color: ${colors.darkgrey};
   max-width: 80%;
-  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5%;
 
   @media (min-width: 500px) {
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '22px')};
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     max-width: 45%;
   }
 `;

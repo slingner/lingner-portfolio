@@ -19,7 +19,7 @@ const NavLinks = styled.ul`
   }
 `;
 
-const NavItem = styled.a`
+export const NavItem = styled.a`
   color: ${(props) => (props.color ? props.color : colors.white)};
   text-decoration: none;
   margin: 0px auto;
@@ -60,6 +60,23 @@ const Navigation = (props) => {
       <li className="nav-links" color={props.color}>
         <NavItem href="#contact" onClick={props.toggleNav} color={props.color}>
           CONTACT
+        </NavItem>
+      </li>
+      <br />
+      <li className="nav-links" color={props.color}>
+        <NavItem
+          href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          onClick={props.toggleNav}
+          color={props.color}
+          style={{
+            fontSize: '30px',
+            border: '1px solid white',
+            padding: '5px',
+          }}
+        >
+          RESUME
         </NavItem>
       </li>
     </NavLinks>
