@@ -79,7 +79,8 @@ export const EmailLink = styled.a`
 export const ResumeLink = styled.a`
   color: ${(props) => (props.color ? props.color : colors.white)};
   text-decoration: none;
-  margin: 0px auto;
+
+  margin: 15px auto;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
