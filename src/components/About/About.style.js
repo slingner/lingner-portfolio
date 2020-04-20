@@ -29,16 +29,30 @@ export const AboutWrap = styled.div`
   }
 `;
 
-// export const ContactButtonWrap = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   margin: auto;
-//   padding-bottom: 20px;
+export const ResumeLink = styled.a`
+  color: ${(props) => (props.color ? props.color : colors.white)};
+  text-decoration: none;
+  display: block;
+  margin: 10px auto;
+  margin-top: 40px;
+  /* justify-content: left; */
+  width: 188px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border: 1px solid white;
+  padding: 12px;
 
-//   @media (min-width: 900px) {
-//     display: none;
-//   }
-// `;
+  :hover {
+    cursor: pointer;
+    color: ${colors.teal};
+  }
+
+  @media (min-width: 600px) {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+`;
 
 export const AboutContent = styled.p`
   color: ${colors.white};

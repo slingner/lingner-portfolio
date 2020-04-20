@@ -11,9 +11,7 @@ import {
   ContactConentWrap,
   ContactPageHeader,
   EmailLink,
-  ResumeLink,
 } from './Contact.style';
-import { NavItem } from '../NavBar/Navigation';
 function Contact() {
   return (
     <ContactPageWrap id="contact">
@@ -26,13 +24,6 @@ function Contact() {
         slingner@gmail.com
       </EmailLink>
 
-      <ResumeLink
-        href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-      >
-        RÉSUMÉ
-      </ResumeLink>
       <ContactConentWrap>
         <LinkWrap
           href="https://angel.co/u/scott-lingner"
@@ -77,12 +68,12 @@ function Contact() {
         style={{
           fontSize: '22px',
           letterSpacing: '3px',
-          marginTop: '50px',
+          marginTop: '20px',
         }}
       >
         Scott Lingner
       </ContactPageSubHeader>
-      <ContactPageSubHeader style={{ marginBottom: '15px' }}>
+      <ContactPageSubHeader style={{ marginBottom: '5px' }}>
         San Francisco, California
       </ContactPageSubHeader>
     </ContactPageWrap>

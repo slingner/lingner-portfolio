@@ -9,7 +9,7 @@ export const ContactPageWrap = styled.div`
   text-align: center;
   justify-content: center;
   /* padding-bottom: 80px; */
-  height: 100vh;
+  height: 80vh;
 
   @media (min-width: 600px) {
     margin: auto;
@@ -21,7 +21,8 @@ export const ContactPageWrap = styled.div`
 
 export const ContactConentWrap = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   background-color: ${colors.slategrey};
   text-align: center;
   /* height: 50%; */
@@ -60,8 +61,10 @@ export const ContactPageSubHeader = styled.h2`
 
 export const EmailLink = styled.a`
   color: ${colors.white};
-  margin-top: 15px;
+  margin-top: 28px;
+  margin-bottom: 10px;
   text-align: center;
+  font-size: 28px;
 
   :hover {
     cursor: pointer;

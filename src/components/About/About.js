@@ -1,7 +1,12 @@
 import React from 'react';
 import { AboutContent } from './About.style';
 import scott from './scott.jpg';
-import { ScottPhoto, AboutPageWrap, AboutWrap } from './About.style';
+import {
+  ScottPhoto,
+  AboutPageWrap,
+  AboutWrap,
+  ResumeLink,
+} from './About.style';
 
 export default function About() {
   return (
@@ -17,6 +22,13 @@ export default function About() {
           a photographer and stylist translates to web development as I am
           passionate about creating compelling narratives and customer-focused
           products.
+          <ResumeLink
+            href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            RÉSUMÉ
+          </ResumeLink>
         </AboutContent>
       </AboutWrap>
     </AboutPageWrap>
