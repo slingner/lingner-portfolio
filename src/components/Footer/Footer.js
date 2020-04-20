@@ -32,7 +32,6 @@ export const LinkWrap = styled.a`
   padding: 3px;
   font-size: 22px;
   text-align: center;
-  margin-right: 30px;
   padding-top: 20px;
 
   @media (min-width: 600px) {

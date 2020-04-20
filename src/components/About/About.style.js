@@ -46,8 +46,7 @@ export const AboutContent = styled.p`
   /* padding: 20px; */
   line-height: 28px;
   text-align: center;
-  /* padding-left: 50px;
-  padding-right: 50px; */
+  width: 88%;
   /* padding-bottom: 90px; */
   margin: auto;
 

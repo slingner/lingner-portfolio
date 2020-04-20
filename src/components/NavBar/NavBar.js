@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-// import DesktopNavBar from './DesktopNavBar';
 import MobileNavBar from './MobileNavBar';
 import Burger from './Burger';
 import { NavWrapper, MobileButton } from './NavBar.style';
-// import scottlogo from "./Assets/scottlogo.png";
 
 function NavBar() {
   const [mobileNav, setMobileNav] = useState(false);
