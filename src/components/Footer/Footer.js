@@ -31,7 +31,7 @@ export const LinkWrap = styled.a`
   color: ${colors.white};
   padding: 3px;
   font-size: 22px;
-  text-align: right;
+  text-align: center;
   margin-right: 30px;
   padding-top: 20px;
 

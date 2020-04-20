@@ -9,6 +9,7 @@ import {
   faAngleDown,
   faShare,
   faGlobe,
+  faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function registerIcons() {
@@ -21,6 +22,7 @@ export default function registerIcons() {
     faArrowLeft,
     faAngleDown,
     faShare,
-    faGlobe
+    faGlobe,
+    faEnvelope
   );
 }

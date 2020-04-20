@@ -73,10 +73,10 @@ const Navigation = (props) => {
           style={{
             fontSize: '30px',
             border: '1px solid white',
-            padding: '5px',
+            padding: '8px',
           }}
         >
-          RESUME
+          RÉSUMÉ
         </NavItem>
       </li>
     </NavLinks>

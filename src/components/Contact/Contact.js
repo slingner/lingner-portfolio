@@ -12,18 +12,25 @@ import {
   ContactPageHeader,
 } from './Contact.style';
 import { NavItem } from '../NavBar/Navigation';
-
+import { colors } from '../constants';
 function Contact() {
   return (
     <ContactPageWrap id="contact">
       <ContactPageHeader>Say hi.</ContactPageHeader>
-      <LinkWrap
+      <a
         href="mailto: slingner@gmail.com"
         rel="noreferrer noopener"
         target="_blank"
+        style={{
+          textAlign: 'right',
+          marginRight: '80px',
+          color: colors.white,
+          marginTop: '15px',
+          marginBottom: '15px',
+        }}
       >
         slingner@gmail.com
-      </LinkWrap>
+      </a>
 
       <NavItem
         href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
@@ -32,12 +39,12 @@ function Contact() {
         style={{
           fontSize: '30px',
           border: '1px solid white',
-          padding: '5px',
+          padding: '8px',
           marginRight: '84px',
           marginTop: '10px',
         }}
       >
-        RESUME
+        RÉSUMÉ
       </NavItem>
       <ContactConentWrap>
         <LinkWrap
