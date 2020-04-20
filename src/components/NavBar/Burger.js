@@ -6,8 +6,8 @@ const StyledBurger = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 2rem;
-  height: 2.2em;
+  width: 14px;
+  height: 25px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -21,8 +21,8 @@ const StyledBurger = styled.button`
   div {
     filter: invert(0.6);
     mix-blend-mode: color-dodge;
-    width: 1.5rem;
-    height: 0.5em;
+    width: 30px;
+    height: 6px;
     background-color: ${colors.white};
     border-radius: 1px;
     transition: all 0.3s linear;
