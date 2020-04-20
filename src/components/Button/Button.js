@@ -47,10 +47,6 @@ export const TechWrapper = styled.div`
   padding: 10px 15px 5px 5px;
 `;
 
-// export const Button = React.forwardRef(({ className, ...props }, ref) => {
-//   return <button className={cx('Button', className)} ref={ref} {...props} />;
-// });
-
 const React1 = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>

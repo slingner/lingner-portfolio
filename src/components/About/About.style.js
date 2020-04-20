@@ -35,7 +35,6 @@ export const ResumeLink = styled.a`
   display: block;
   margin: 10px auto;
   margin-top: 40px;
-  /* justify-content: left; */
   width: 188px;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
@@ -57,11 +56,9 @@ export const ResumeLink = styled.a`
 export const AboutContent = styled.p`
   color: ${colors.white};
   font-size: 18px;
-  /* padding: 20px; */
   line-height: 28px;
   text-align: center;
   width: 88%;
-  /* padding-bottom: 90px; */
   margin: auto;
 
   @media (min-width: 600px) {
@@ -77,7 +74,6 @@ export const ScottPhoto = styled.img`
   border-radius: 100%;
   margin: auto;
   padding: 20px;
-  /* height: 40%; */
 
   @media (min-width: 600px) {
     margin-top: 70px;

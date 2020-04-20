@@ -15,7 +15,7 @@ export const PageWrapper = styled.div`
 
 export const StyledP = styled.p`
   margin: auto;
-  width: 60%;
+  width: 88%;
 
   @media (min-width: 600px) {
     width: 40%;
@@ -64,7 +64,7 @@ export const ProjectSubHeader = styled.h3`
   color: ${colors.darkgrey};
   margin: auto;
   padding-bottom: 20px;
-  width: 60%;
+  width: 85%;
 
   @media (min-width: 600px) {
     width: 40%;

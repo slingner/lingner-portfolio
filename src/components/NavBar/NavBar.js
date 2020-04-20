@@ -14,7 +14,6 @@ function NavBar() {
         <MobileButton type="button" onClick={toggleTrueFalse}>
           <Burger open={mobileNav} />
         </MobileButton>
-        {/* <DesktopNavBar /> */}
       </div>
 
       {mobileNav ? (

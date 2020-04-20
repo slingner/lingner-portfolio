@@ -13,7 +13,6 @@ export default function Work(props) {
       <Folkul />
       <Filter />
       <FrenchMoi />
-
       <About />
     </PageWrapper>
   );

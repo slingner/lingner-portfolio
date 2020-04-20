@@ -9,12 +9,10 @@ function App() {
   return (
     <>
       <NavBar />
-
       <Switch>
         <Route exact path="/" component={Home} />
         <Route component={NotFoundPage} />
       </Switch>
-
       <Footer />
     </>
   );

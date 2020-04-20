@@ -27,7 +27,6 @@ export const StyledFooter = styled.footer`
 
 export const LinkWrap = styled.a`
   list-style-type: none;
-  /* text-decoration: none; */
   color: ${colors.white};
   padding: 3px;
   font-size: 22px;
@@ -62,11 +61,6 @@ export const StyledLine = styled.div`
   background-color: ${colors.white};
   margin-left: 23px;
   margin-top: 5px;
-
-  /* :nth-child(1) {
-    margin-bottom: 5px;
-    margin-top: 5px;
-  } */
 `;
 
 const Footer = () => (
