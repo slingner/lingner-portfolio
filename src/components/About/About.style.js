@@ -61,6 +61,12 @@ export const AboutContent = styled.p`
   width: 88%;
   margin: auto;
 
+  .rbc {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+
   @media (min-width: 600px) {
     margin-top: 90px;
     padding-left: 0px;

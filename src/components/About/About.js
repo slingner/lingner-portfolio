@@ -14,14 +14,24 @@ export default function About() {
       <AboutWrap>
         <ScottPhoto src={scott} alt="scott-lingner-photo" />
         <AboutContent>
-          My mission as a developer is to help companies grow with beautiful,
-          efficient, and impactful online applications.
+          My mission as a developer is to help companies grow with impactful and
+          efficient applications.
+          <br />
+          <br />I am a project-oriented developer with a strong background in
+          building interactive web applications from the ground up. I have a
+          detail-oriented mindset from my 8+ years of experience in the
+          photography and advertising industry.
           <br />
           <br />
-          My 8+ years background in the photography and advertising industry as
-          a photographer and stylist translates to web development as I am
-          passionate about creating compelling narratives and customer-focused
-          products.
+          In my spare time, I spend time illustrating paper goods under{' '}
+          <a
+            href="https://www.etsy.com/shop/RocketBoogieCo#_=_"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="rbc"
+          >
+            Rocket Boogie Co.
+          </a>
           <ResumeLink
             href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
             target="_blank"

@@ -21,7 +21,7 @@ import filter from './Assets/filter.png';
 
 export default function Filter() {
   return (
-    <ContentWrapper style={{ backgroundColor: colors.coral }}>
+    <ContentWrapper style={{ backgroundColor: '#c77669' }}>
       <FilterLogo1 />
       <ProjectSubHeader>A Coffee Bean Exploration Application</ProjectSubHeader>
       <StyledP>

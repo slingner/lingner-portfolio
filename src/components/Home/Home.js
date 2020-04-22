@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <SubText>
           I'm a San Francisco based software engineer focused on creating
-          beautiful, efficient, and impactful applications.
+          efficient and impactful applications.
         </SubText>
 
         <AngleDown

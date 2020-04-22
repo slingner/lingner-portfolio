@@ -24,18 +24,19 @@ export default function FrenchMoi() {
   return (
     <ContentWrapper
       style={{
-        backgroundColor: colors.lightblue,
+        backgroundColor: '#3a5e8c',
         paddingBottom: '0px',
         marginBottom: '-.5px',
+        fill: colors.white,
       }}
     >
       <FrenchMoiLogo2 />
 
-      <ProjectSubHeader>
+      <ProjectSubHeader style={{ color: colors.white }}>
         Learn French through spaced-repetition learning
       </ProjectSubHeader>
 
-      <StyledP>
+      <StyledP style={{ color: colors.white }}>
         French Moi is an app that utilizes spaced-repetition to help users
         memorize French words. The user will have the option to login or signup,
         and then will be directed to a dashboard displaying their total correct
@@ -50,7 +51,7 @@ export default function FrenchMoi() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's French Moi Spaced Repetition App "
         >
-          <GithubButton style={{ color: colors.darkgrey }} />
+          <GithubButton style={{ color: colors.white }} />
         </LinkWrap>
 
         <LinkWrap
@@ -59,7 +60,7 @@ export default function FrenchMoi() {
           rel="noopener noreferrer"
           aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
         >
-          <LiveLinkButton style={{ color: colors.darkgrey }} />
+          <LiveLinkButton style={{ color: colors.white }} />
         </LinkWrap>
       </TechWrapper>
 
@@ -77,13 +78,13 @@ export default function FrenchMoi() {
       </LinkWrap>
 
       <TechWrapper>
-        <ReactLogo style={{ color: colors.darkgrey }} />
-        <CssLogo style={{ color: colors.darkgrey }} />
+        <ReactLogo style={{ color: colors.white }} />
+        <CssLogo style={{ color: colors.white }} />
         <PostgresLogo2 />
-        <NodeLogo style={{ color: colors.darkgrey }} />
+        <NodeLogo style={{ color: colors.white }} />
       </TechWrapper>
 
-      <PageHeader id="about" className="about">
+      <PageHeader id="about" style={{ color: colors.white }}>
         About
       </PageHeader>
     </ContentWrapper>

@@ -21,7 +21,7 @@ import dashboard from '../Work/Assets/DASHBOARD.gif';
 
 export default function Folkul() {
   return (
-    <ContentWrapper style={{ backgroundColor: colors.offwhite }}>
+    <ContentWrapper style={{ backgroundColor: '#7cbabf' }}>
       <FolkulLogo1 />
 
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>

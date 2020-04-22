@@ -32,11 +32,11 @@ export const ContactPageHeader = styled.h1`
   font-family: 'Raleway', sans-serif;
   text-align: right;
   color: ${colors.white};
-  font-size: 85px;
+  font-size: 65px;
   text-align: center;
 
   @media (min-width: 600px) {
-    font-size: 105px;
+    font-size: 85px;
     text-align: right;
     margin-right: 80px;
   }

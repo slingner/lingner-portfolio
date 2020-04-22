@@ -127,7 +127,7 @@ export const FrenchMoiLogo2 = (props) => {
         style={{
           width: '45%',
           alignSelf: 'center',
-          fill: colors.black,
+          fill: '#e3ccdc',
           paddingBottom: '20px',
           paddingTop: '35px',
         }}
@@ -156,7 +156,7 @@ export const PostgresLogo2 = (props) => {
         aria-label="Postgres Logo"
         style={{
           width: '40px',
-          fill: colors.darkgrey,
+          fill: colors.white,
         }}
       />
     </>
