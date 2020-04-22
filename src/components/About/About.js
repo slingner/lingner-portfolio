@@ -23,7 +23,7 @@ export default function About() {
           photography and advertising industry.
           <br />
           <br />
-          In my spare time, I spend time illustrating paper goods under{' '}
+          In my spare time, I illustrate paper goods under{' '}
           <a
             href="https://www.etsy.com/shop/RocketBoogieCo#_=_"
             target="_blank"

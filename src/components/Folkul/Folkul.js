@@ -13,7 +13,7 @@ import {
   ProjectSubHeader,
   Image,
   LinkWrap,
-  PostgresLogo1,
+  PostgresLogo2,
   StyledComponentsLogo1,
   StyledP,
 } from '../Work/Work.style';
@@ -22,10 +22,16 @@ import dashboard from '../Work/Assets/DASHBOARD.gif';
 export default function Folkul() {
   return (
     <ContentWrapper style={{ backgroundColor: '#7cbabf' }}>
-      <FolkulLogo1 />
-
+      <LinkWrap
+        href="https://folkul.now.sh"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Live Link to Scott Lingner's Folkul App "
+      >
+        <FolkulLogo1 />
+      </LinkWrap>
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>
-      <StyledP>
+      <StyledP style={{ fontSize: '20px', color: colors.darkgrey }}>
         Folkul is a place where you can privately gather your thoughts - this
         can be small ideas to the next greatest invention. You can connect to
         other users and then share this idea with them - getting criticism,
@@ -39,7 +45,8 @@ export default function Folkul() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's Folkul App "
         >
-          <GithubButton style={{ color: colors.darkgrey }} />
+          {/* <GithubButton style={{ color: colors.darkgrey }} /> */}
+          <p className="linktext">Github</p>
         </LinkWrap>
         <LinkWrap
           href="https://folkul.now.sh"
@@ -47,10 +54,11 @@ export default function Folkul() {
           rel="noopener noreferrer"
           aria-label="Live Link to Scott Lingner's Folkul App "
         >
-          <LiveLinkButton style={{ color: colors.darkgrey }} />
+          {/* <LiveLinkButton style={{ color: colors.darkgrey }} /> */}
+          <p className="linktext">Live</p>
         </LinkWrap>
       </TechWrapper>
-      <LinkWrap
+      {/* <LinkWrap
         href="https://folkul.now.sh"
         target="_blank"
         rel="noopener noreferrer"
@@ -61,12 +69,12 @@ export default function Folkul() {
           alt="Folkul-Gif"
           aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
         />
-      </LinkWrap>
+      </LinkWrap> */}
 
       <TechWrapper>
         <ReactLogo />
         <StyledComponentsLogo1 />
-        <PostgresLogo1 />
+        <PostgresLogo2 />
         <NodeLogo />
       </TechWrapper>
     </ContentWrapper>

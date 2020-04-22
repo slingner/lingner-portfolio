@@ -30,13 +30,20 @@ export default function FrenchMoi() {
         fill: colors.white,
       }}
     >
-      <FrenchMoiLogo2 />
+      <LinkWrap
+        href="https://frenchmoi.now.sh/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
+      >
+        <FrenchMoiLogo2 />
+      </LinkWrap>
 
       <ProjectSubHeader style={{ color: colors.white }}>
         Learn French through spaced-repetition learning
       </ProjectSubHeader>
 
-      <StyledP style={{ color: colors.white }}>
+      <StyledP style={{ fontSize: '20px', color: colors.white }}>
         French Moi is an app that utilizes spaced-repetition to help users
         memorize French words. The user will have the option to login or signup,
         and then will be directed to a dashboard displaying their total correct
@@ -51,7 +58,8 @@ export default function FrenchMoi() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's French Moi Spaced Repetition App "
         >
-          <GithubButton style={{ color: colors.white }} />
+          {/* <GithubButton style={{ color: colors.white }} /> */}
+          <p className="linktext">Github</p>
         </LinkWrap>
 
         <LinkWrap
@@ -60,11 +68,12 @@ export default function FrenchMoi() {
           rel="noopener noreferrer"
           aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
         >
-          <LiveLinkButton style={{ color: colors.white }} />
+          {' '}
+          <p className="linktext">Live</p>
         </LinkWrap>
       </TechWrapper>
 
-      <LinkWrap
+      {/* <LinkWrap
         href="https://frenchmoi.now.sh/"
         target="_blank"
         rel="noopener noreferrer"
@@ -75,7 +84,7 @@ export default function FrenchMoi() {
           alt="FrenchMoi-Screenshot"
           aria-label="Screenshot of Scott Lingner's French Moi Application => links to live site"
         />
-      </LinkWrap>
+      </LinkWrap> */}
 
       <TechWrapper>
         <ReactLogo style={{ color: colors.white }} />

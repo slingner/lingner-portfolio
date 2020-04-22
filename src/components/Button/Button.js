@@ -43,8 +43,8 @@ export const TechWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
-  padding: 10px 15px 5px 5px;
+  margin: 0px auto;
+  padding: 10px 15px 0px 5px;
 `;
 
 const React1 = React.forwardRef(({ className, ...props }, ref) => {

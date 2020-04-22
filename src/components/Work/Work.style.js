@@ -18,7 +18,7 @@ export const StyledP = styled.p`
   width: 88%;
 
   @media (min-width: 600px) {
-    width: 40%;
+    width: 38%;
     line-height: 24px;
   }
 `;
@@ -60,7 +60,7 @@ export const PageHeader = styled.h1`
 `;
 
 export const ProjectSubHeader = styled.h3`
-  font-size: 18px;
+  font-size: 25px;
   color: ${colors.darkgrey};
   margin: auto;
   padding-bottom: 20px;
@@ -169,7 +169,7 @@ export const StyledComponentsLogo1 = (props) => {
       <StyledComponentsLogo
         aria-label="Styled Components Logo"
         style={{
-          width: '80px',
+          width: '65px',
           paddingLeft: '5px',
           paddingRight: '5px',
           fill: colors.white,
@@ -179,4 +179,15 @@ export const StyledComponentsLogo1 = (props) => {
   );
 };
 
-export const LinkWrap = styled.a``;
+export const LinkWrap = styled.a`
+  text-decoration: none;
+  .linktext {
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+    /* border: none; */
+    color: white;
+    padding: 0 20px 0 20px;
+    /* border-bottom: 1px solid white;
+    border-bottom-width: 3px; */
+  }
+`;
