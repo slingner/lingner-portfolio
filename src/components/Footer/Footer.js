@@ -64,7 +64,7 @@ export const StyledLine = styled.div`
 `;
 
 const Footer = () => (
-  <StyledFooter id="contact">
+  <StyledFooter>
     <StyledLine />
     <LinkWrap
       href="mailto: slingner@gmail.com"

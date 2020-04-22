@@ -44,7 +44,7 @@ export default function Home() {
         />
       </StyledDiv>
       <div ref={htmlElRef}>
-        <Work id="work" />
+        <Work />
       </div>
       <Contact />
     </main>
