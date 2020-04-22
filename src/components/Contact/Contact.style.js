@@ -81,8 +81,7 @@ export const ResumeLink = styled.a`
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  border: 1px solid white;
-  padding: 8px;
+  padding: 2px;
 
   :hover {
     cursor: pointer;

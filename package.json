@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "babel-plugin-macros": "^2.8.0",
     "classnames": "^2.2.6",
+    "framer-motion": "^1.10.3",
     "react": "^16.13.1",
     "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",

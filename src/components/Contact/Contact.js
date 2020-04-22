@@ -11,6 +11,7 @@ import {
   ContactConentWrap,
   ContactPageHeader,
   EmailLink,
+  ResumeLink,
 } from './Contact.style';
 function Contact() {
   return (
@@ -23,6 +24,14 @@ function Contact() {
       >
         slingner@gmail.com
       </EmailLink>
+
+      <ResumeLink
+        href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+      >
+        RESUME
+      </ResumeLink>
 
       <ContactConentWrap>
         <LinkWrap

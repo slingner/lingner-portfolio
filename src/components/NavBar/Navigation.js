@@ -2,6 +2,10 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
+import { keyframes } from 'styled-components';
+import { fadeOutUp } from 'react-animations';
+
+const fadeOutUpAnimation = keyframes`${fadeOutUp}`;
 
 const NavLinks = styled.ul`
   list-style: none;
@@ -29,6 +33,7 @@ export const NavItem = styled.a`
   :hover {
     cursor: pointer;
     color: ${colors.blue};
+    animation: 0.5s ${fadeOutUpAnimation};
   }
 
   @media (max-width: 600px) {
@@ -62,7 +67,6 @@ const Navigation = (props) => {
           CONTACT
         </NavItem>
       </li>
-      <br />
       <li className="nav-links" color={props.color}>
         <NavItem
           href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
@@ -70,13 +74,13 @@ const Navigation = (props) => {
           rel="nofollow noopener noreferrer"
           onClick={props.toggleNav}
           color={props.color}
-          style={{
-            fontSize: '30px',
-            border: '1px solid white',
-            padding: '8px',
-          }}
+          // style={{
+          //   fontSize: '40px',
+          //   padding: '8px',
+          //   borderBottom: '1px solid white',
+          // }}
         >
-          RÉSUMÉ
+          RESUME
         </NavItem>
       </li>
     </NavLinks>

@@ -22,7 +22,7 @@ export const AboutWrap = styled.div`
   /* height: 100%; */
   @media (min-width: 900px) {
     flex-direction: row;
-    width: 60%;
+    width: 68%;
     /* padding: 50%; */
     margin: auto;
     /* padding: 100px; */
@@ -39,7 +39,7 @@ export const ResumeLink = styled.a`
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 12px;
 
   :hover {
@@ -79,8 +79,8 @@ export const ScottPhoto = styled.img`
   /* border-radius: 100%; */
   margin: auto;
   padding: 10px;
-  height: 350px;
-  width: 250px;
+  height: auto;
+  width: 360px;
   /* border-radius: 30px; */
 
   @media (min-width: 600px) {

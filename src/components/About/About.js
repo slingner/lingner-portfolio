@@ -1,12 +1,7 @@
 import React from 'react';
 import { AboutContent } from './About.style';
 import scott from './scott.jpg';
-import {
-  ScottPhoto,
-  AboutPageWrap,
-  AboutWrap,
-  ResumeLink,
-} from './About.style';
+import { ScottPhoto, AboutPageWrap, AboutWrap } from './About.style';
 
 export default function About() {
   return (
@@ -19,8 +14,8 @@ export default function About() {
           <br />
           <br />I am a project-oriented developer with a strong background in
           building interactive web applications from the ground up. I have a
-          detail-oriented mindset from my 8+ years of experience in the
-          photography and advertising industry.
+          creative problem-solving and agile mindset from my 8+ years of
+          experience in the photography and advertising industry.
           <br />
           <br />
           In my spare time, I illustrate paper goods under{' '}
@@ -34,13 +29,9 @@ export default function About() {
           </a>
           <br />
           <br />
-          <ResumeLink
-            href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-          >
-            RÉSUMÉ
-          </ResumeLink>
+          I’m always open to discussing devlopment work or collaborative
+          opportunities.
+          <br />
         </AboutContent>
       </AboutWrap>
     </AboutPageWrap>
