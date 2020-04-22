@@ -36,7 +36,7 @@ export const TextOnImage = styled.div`
   top: 67%;
   left: 30%;
   transform: translate(-50%, -50%);
-  font-size: ${({ fontsize }) => (fontsize ? fontsize : '2em')};
+  font-size: ${({ fontsize }) => (fontsize ? fontsize : '2.5em')};
   color: ${colors.darkgrey};
   font-weight: bolder;
   letter-spacing: 7px;
@@ -48,7 +48,7 @@ export const TextOnImage = styled.div`
   @media (min-width: 500px) {
     top: 48%;
     left: 35%;
-    font-size: ${({ fontsize }) => (fontsize ? fontsize : '4em')};
+    font-size: ${({ fontsize }) => (fontsize ? fontsize : '4.5em')};
   }
 `;
 
@@ -58,15 +58,15 @@ export const TextOnImage2 = styled.div`
   top: 84%;
   left: 65%;
   transform: translate(-50%, -50%);
-  font-size: ${({ fontsize }) => (fontsize ? fontsize : '2em')};
+  font-size: ${({ fontsize }) => (fontsize ? fontsize : '2.5em')};
   color: ${colors.darkgrey};
   font-weight: bolder;
   letter-spacing: 7px;
 
   @media (min-width: 500px) {
-    font-size: ${({ fontsize }) => (fontsize ? fontsize : '4em')};
+    font-size: ${({ fontsize }) => (fontsize ? fontsize : '4.5em')};
     top: 75%;
-    left: 65%;
+    left: 63%;
   }
 `;
 
