@@ -24,7 +24,7 @@ export default function Home() {
   const [executeScroll, htmlElRef] = useScroll();
 
   return (
-    <div>
+    <main>
       <StyledDiv>
         <div id="divfix">
           <Image src={Logo} className="img" alt="dashboard-view" />
@@ -47,6 +47,6 @@ export default function Home() {
         <Work id="work" />
       </div>
       <Contact />
-    </div>
+    </main>
   );
 }

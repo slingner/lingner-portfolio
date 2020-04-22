@@ -59,7 +59,7 @@ export const PageHeader = styled.h1`
   }
 `;
 
-export const ProjectSubHeader = styled.h3`
+export const ProjectSubHeader = styled.h1`
   font-size: 25px;
   color: ${colors.darkgrey};
   margin: auto;
