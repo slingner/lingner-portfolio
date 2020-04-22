@@ -32,6 +32,8 @@ export default function About() {
           >
             Rocket Boogie Co.
           </a>
+          <br />
+          <br />
           <ResumeLink
             href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
             target="_blank"

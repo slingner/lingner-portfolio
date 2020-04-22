@@ -8,7 +8,7 @@ import {
   TextOnImage2,
   SubText,
 } from './Home.style';
-import Logo from './scottlogo.png';
+import Logo from './scottlogo.svg';
 import { colors } from '../constants';
 import Work from '../Work/Work';
 import Contact from '../Contact/Contact';

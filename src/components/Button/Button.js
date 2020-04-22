@@ -13,7 +13,7 @@ export const AngleDownButton = React.forwardRef(
   ({ className, ...props }, ref) => {
     return (
       <button className={cx('Button', className)} ref={ref} {...props}>
-        <FontAwesomeIcon icon="angle-down" />
+        <FontAwesomeIcon aria-label="Angle Down Button" icon="angle-down" />
       </button>
     );
   }
@@ -50,7 +50,7 @@ export const TechWrapper = styled.div`
 const React1 = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'react']} />
+      <FontAwesomeIcon aria-label="React Logo" icon={['fab', 'react']} />
     </button>
   );
 });
@@ -65,7 +65,7 @@ export const ReactLogo = styled(React1)`
 const CSS3 = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'css3']} />
+      <FontAwesomeIcon aria-label="Css Logo" icon={['fab', 'css3']} />
     </button>
   );
 });
@@ -80,7 +80,7 @@ export const CssLogo = styled(CSS3)`
 const Node = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'node-js']} />
+      <FontAwesomeIcon aria-label="Node.js Logo" icon={['fab', 'node-js']} />
     </button>
   );
 });
@@ -95,7 +95,7 @@ export const NodeLogo = styled(Node)`
 const LiveLink = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon="globe" />
+      <FontAwesomeIcon aria-label="Live Link Globe Logo" icon="globe" />
     </button>
   );
 });
@@ -114,7 +114,7 @@ export const LiveLinkButton = styled(LiveLink)`
 const GitHub = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'github']} />
+      <FontAwesomeIcon aria-label="Github Logo" icon={['fab', 'github']} />
     </button>
   );
 });
@@ -142,7 +142,10 @@ export const GithubButton = styled(GitHub)`
 const LinkedIn = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+      <FontAwesomeIcon
+        aria-label="LinkedIn Logo"
+        icon={['fab', 'linkedin-in']}
+      />
     </button>
   );
 });
@@ -170,7 +173,7 @@ export const LinkedInButton = styled(LinkedIn)`
 const Email = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon="envelope" />
+      <FontAwesomeIcon aria-label="Envelope Email Logo" icon="envelope" />
     </button>
   );
 });
@@ -198,7 +201,10 @@ export const EmailButton = styled(Email)`
 const AngelList = React.forwardRef(({ className, ...props }, ref) => {
   return (
     <button className={cx('Button', className)} ref={ref} {...props}>
-      <FontAwesomeIcon icon={['fab', 'angellist']} />
+      <FontAwesomeIcon
+        aria-label="AngelList Logo"
+        icon={['fab', 'angellist']}
+      />
     </button>
   );
 });

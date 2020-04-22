@@ -7,6 +7,8 @@ import { ReactComponent as FilterLogo } from './Assets/filter.svg';
 import { ReactComponent as FrenchMoi } from './Assets/frenchmoi.svg';
 import { ReactComponent as PostgresLogo } from './Assets/postgresql.svg';
 import { ReactComponent as StyledComponentsLogo } from './Assets/styled-components.svg';
+import { keyframes } from 'styled-components';
+import { flipOutX } from 'react-animations';
 
 export const PageWrapper = styled.div`
   display: flex;
@@ -179,10 +181,16 @@ export const StyledComponentsLogo1 = (props) => {
   );
 };
 
+const flipOutXAnimation = keyframes`${flipOutX}`;
+
 export const LinkWrap = styled.a`
   text-decoration: none;
   .linktext {
     color: white;
     padding: 0 20px 0 20px;
+
+    :hover {
+      animation: 0.5s ${flipOutXAnimation};
+    }
   }
 `;
