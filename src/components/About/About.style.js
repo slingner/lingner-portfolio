@@ -33,7 +33,7 @@ export const ResumeLink = styled.a`
   color: ${(props) => (props.color ? props.color : colors.white)};
   text-decoration: none;
   display: block;
-  margin: 10px auto;
+  margin: auto;
   margin-top: 40px;
   width: 188px;
   font-size: 30px;
@@ -48,8 +48,7 @@ export const ResumeLink = styled.a`
   }
 
   @media (min-width: 600px) {
-    margin-top: 40px;
-    margin-left: 0;
+    margin: 25px auto;
   }
 `;
 
@@ -69,7 +68,7 @@ export const AboutContent = styled.p`
 
   @media (min-width: 600px) {
     margin-top: 90px;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 0px;
     text-align: left;
     width: 50%;
@@ -79,7 +78,7 @@ export const AboutContent = styled.p`
 export const ScottPhoto = styled.img`
   /* border-radius: 100%; */
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   height: 350px;
   width: 250px;
   /* border-radius: 30px; */

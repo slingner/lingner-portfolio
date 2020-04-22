@@ -1,24 +1,16 @@
 import React from 'react';
 import { FrenchMoiLogo2 } from '../Work/Work.style';
-import {
-  ReactLogo,
-  CssLogo,
-  NodeLogo,
-  TechWrapper,
-  LiveLinkButton,
-} from '../Button/Button';
-import { GithubButton } from '../Button/Button';
+import { ReactLogo, CssLogo, NodeLogo, TechWrapper } from '../Button/Button';
+
 import { colors } from '../constants';
 import {
   ContentWrapper,
   ProjectSubHeader,
-  Image,
   LinkWrap,
   PostgresLogo2,
   StyledP,
   PageHeader,
 } from '../Work/Work.style';
-import frenchmoi from './frenchmoi.png';
 
 export default function FrenchMoi() {
   return (
@@ -58,7 +50,6 @@ export default function FrenchMoi() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's French Moi Spaced Repetition App "
         >
-          {/* <GithubButton style={{ color: colors.white }} /> */}
           <p className="linktext">Github</p>
         </LinkWrap>
 
@@ -72,19 +63,6 @@ export default function FrenchMoi() {
           <p className="linktext">Live</p>
         </LinkWrap>
       </TechWrapper>
-
-      {/* <LinkWrap
-        href="https://frenchmoi.now.sh/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's French Moi Spaced-Repetition Application"
-      >
-        <Image
-          src={frenchmoi}
-          alt="FrenchMoi-Screenshot"
-          aria-label="Screenshot of Scott Lingner's French Moi Application => links to live site"
-        />
-      </LinkWrap> */}
 
       <TechWrapper>
         <ReactLogo style={{ color: colors.white }} />

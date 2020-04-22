@@ -89,7 +89,7 @@ export const FolkulLogo1 = (props) => {
         aria-label="Folkul Logo - Scott Lingner's App"
         className="logo"
         style={{
-          width: '30%',
+          width: '40%',
           alignSelf: 'center',
           fill: colors.darkgrey,
           paddingBottom: '40px',
@@ -182,12 +182,7 @@ export const StyledComponentsLogo1 = (props) => {
 export const LinkWrap = styled.a`
   text-decoration: none;
   .linktext {
-    /* text-decoration: none; */
-    /* list-style-type: none; */
-    /* border: none; */
     color: white;
     padding: 0 20px 0 20px;
-    /* border-bottom: 1px solid white;
-    border-bottom-width: 3px; */
   }
 `;

@@ -1,23 +1,15 @@
 import React from 'react';
-import {
-  ReactLogo,
-  CssLogo,
-  NodeLogo,
-  TechWrapper,
-  LiveLinkButton,
-} from '../Button/Button';
-import { GithubButton } from '../Button/Button';
+import { ReactLogo, CssLogo, NodeLogo, TechWrapper } from '../Button/Button';
+
 import { colors } from '../constants';
 import {
   FilterLogo1,
   ContentWrapper,
   ProjectSubHeader,
-  Image,
   LinkWrap,
   PostgresLogo1,
   StyledP,
 } from '../Work/Work.style';
-import filter from './Assets/filter.png';
 
 export default function Filter() {
   return (
@@ -42,7 +34,6 @@ export default function Filter() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's Filter Coffee Bean App "
         >
-          {/* <GithubButton style={{ color: colors.darkgrey }} /> */}
           <p className="linktext">Github</p>
         </LinkWrap>
         <LinkWrap
@@ -51,22 +42,9 @@ export default function Filter() {
           rel="noopener noreferrer"
           aria-label="Link to Scott Lingner's Filter App"
         >
-          {/* <LiveLinkButton style={{ color: colors.darkgrey }} /> */}
           <p className="linktext">Live</p>
         </LinkWrap>
       </TechWrapper>
-      {/* <LinkWrap
-        href="https://filter-app.now.sh/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's Filter Application"
-      >
-        <Image
-          src={filter}
-          alt="Filter-Screenshot"
-          aria-label="Screenshot of Scott Lingner's Filter Application => links to live App"
-        />
-      </LinkWrap> */}
 
       <TechWrapper>
         <ReactLogo />

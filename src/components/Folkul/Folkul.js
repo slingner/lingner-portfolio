@@ -1,23 +1,15 @@
 import React from 'react';
 import { FolkulLogo1 } from '../Work/Work.style';
-import {
-  ReactLogo,
-  NodeLogo,
-  TechWrapper,
-  LiveLinkButton,
-} from '../Button/Button';
-import { GithubButton } from '../Button/Button';
+import { ReactLogo, NodeLogo, TechWrapper } from '../Button/Button';
 import { colors } from '../constants';
 import {
   ContentWrapper,
   ProjectSubHeader,
-  Image,
   LinkWrap,
   PostgresLogo2,
   StyledComponentsLogo1,
   StyledP,
 } from '../Work/Work.style';
-import dashboard from '../Work/Assets/DASHBOARD.gif';
 
 export default function Folkul() {
   return (
@@ -45,7 +37,6 @@ export default function Folkul() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's Folkul App "
         >
-          {/* <GithubButton style={{ color: colors.darkgrey }} /> */}
           <p className="linktext">Github</p>
         </LinkWrap>
         <LinkWrap
@@ -58,18 +49,6 @@ export default function Folkul() {
           <p className="linktext">Live</p>
         </LinkWrap>
       </TechWrapper>
-      {/* <LinkWrap
-        href="https://folkul.now.sh"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Scott Lingner's Folkul Application"
-      >
-        <Image
-          src={dashboard}
-          alt="Folkul-Gif"
-          aria-label="Gif of Scott Lingner's Folkul Application => links to live site"
-        />
-      </LinkWrap> */}
 
       <TechWrapper>
         <ReactLogo />

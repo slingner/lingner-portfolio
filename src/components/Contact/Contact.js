@@ -67,7 +67,6 @@ function Contact() {
       <ContactPageSubHeader
         style={{
           fontSize: '22px',
-          letterSpacing: '3px',
           marginTop: '20px',
         }}
       >
