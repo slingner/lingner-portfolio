@@ -23,7 +23,7 @@ export default function Folkul() {
         <FolkulLogo1 aria-label="Logo and Link to Scott Lingner's Folkul App" />
       </LinkWrap>
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>
-      <StyledP style={{ fontSize: '20px', color: colors.darkgrey }}>
+      <StyledP style={{ color: colors.darkgrey }}>
         Folkul is a place where you can privately gather your thoughts - this
         can be small ideas to the next greatest invention. You can connect to
         other users and then share this idea with them - getting criticism,

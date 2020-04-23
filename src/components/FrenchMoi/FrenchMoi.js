@@ -31,10 +31,10 @@ export default function FrenchMoi() {
       </LinkWrap>
 
       <ProjectSubHeader style={{ color: colors.white }}>
-        Learn French through spaced-repetition learning
+        A French Language Learning Platform
       </ProjectSubHeader>
 
-      <StyledP style={{ fontSize: '20px', color: colors.white }}>
+      <StyledP style={{ color: colors.white }}>
         French Moi is an app that utilizes spaced-repetition to help users
         memorize French words. The user will have the option to login or signup,
         and then will be directed to a dashboard displaying their total correct

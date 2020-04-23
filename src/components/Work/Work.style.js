@@ -18,11 +18,12 @@ export const PageWrapper = styled.div`
 export const StyledP = styled.p`
   margin: auto;
   width: 88%;
+  font-size: 20px;
   line-height: 28px;
 
   @media (min-width: 600px) {
     width: 38%;
-    line-height: 24px;
+    font-size: 28px;
   }
 `;
 
@@ -33,7 +34,7 @@ export const ContentWrapper = styled.div`
   padding: 30px;
   text-align: center;
   > p {
-    font-size: 16px;
+    font-size: 18px;
   }
 `;
 
@@ -63,7 +64,8 @@ export const PageHeader = styled.h1`
 `;
 
 export const ProjectSubHeader = styled.h1`
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
   color: ${colors.darkgrey};
   margin: auto;
   padding-bottom: 20px;

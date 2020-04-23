@@ -23,7 +23,7 @@ export default function Filter() {
         <FilterLogo1 />
       </LinkWrap>
       <ProjectSubHeader>A Coffee Bean Exploration Application</ProjectSubHeader>
-      <StyledP style={{ fontSize: '20px', color: colors.darkgrey }}>
+      <StyledP style={{ color: colors.darkgrey }}>
         A user-focused application giving you the opportunity to explore coffee
         beans that are responsibly sourced from crops around the world.{' '}
       </StyledP>
