@@ -38,6 +38,7 @@ export const ResumeLink = styled.a`
   width: 188px;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
   text-align: center;
   /* border: 1px solid white; */
   padding: 12px;

@@ -22,6 +22,7 @@ export const StyledDiv = styled.div`
 
 export const TextOnImage = styled.div`
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
   position: absolute;
   top: 67%;
   left: 30%;
@@ -40,6 +41,7 @@ export const TextOnImage = styled.div`
 
 export const TextOnImage2 = styled.div`
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
   position: absolute;
   top: 84%;
   left: 65%;

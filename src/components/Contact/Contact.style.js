@@ -30,6 +30,7 @@ export const ContactConentWrap = styled.div`
 
 export const ContactPageHeader = styled.h1`
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
   text-align: right;
   color: ${colors.white};
   font-size: 65px;
@@ -80,6 +81,7 @@ export const ResumeLink = styled.a`
   margin: 15px auto;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
   text-align: center;
   padding: 2px;
 

@@ -13,13 +13,14 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
+  font-display: swap;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

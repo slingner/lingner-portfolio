@@ -29,6 +29,7 @@ export const NavItem = styled.a`
   margin: 0px auto;
   font-size: 60px;
   font-family: 'Raleway', sans-serif;
+  font-display: swap;
 
   :hover {
     cursor: pointer;
