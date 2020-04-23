@@ -20,7 +20,7 @@ export default function Folkul() {
         rel="noopener noreferrer"
         aria-label="Live Link to Scott Lingner's Folkul App "
       >
-        <FolkulLogo1 />
+        <FolkulLogo1 aria-label="Logo and Link to Scott Lingner's Folkul App" />
       </LinkWrap>
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>
       <StyledP style={{ fontSize: '20px', color: colors.darkgrey }}>
@@ -37,24 +37,33 @@ export default function Folkul() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's Folkul App "
         >
-          <p className="linktext">Github</p>
+          <p
+            aria-label="Github Text and Link to Scott Lingner's Folkul App"
+            className="linktext"
+          >
+            Github
+          </p>
         </LinkWrap>
         <LinkWrap
           href="https://folkul.now.sh"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Live Link to Scott Lingner's Folkul App "
+          aria-label="Live Link to Scott Lingner's Folkul App"
         >
-          {/* <LiveLinkButton style={{ color: colors.darkgrey }} /> */}
-          <p className="linktext">Live</p>
+          <p
+            aria-label="Live Link and text to Scott Lingner's Folkul App"
+            className="linktext"
+          >
+            Live
+          </p>
         </LinkWrap>
       </TechWrapper>
 
       <TechWrapper>
-        <ReactLogo />
-        <StyledComponentsLogo1 />
-        <PostgresLogo2 />
-        <NodeLogo />
+        <ReactLogo aria-label="React Logo" />
+        <StyledComponentsLogo1 aria-label="Styled Components Logo" />
+        <PostgresLogo2 aria-label="PostgreSQL Logo" />
+        <NodeLogo aria-label="Node.js Logo" />
       </TechWrapper>
     </ContentWrapper>
   );

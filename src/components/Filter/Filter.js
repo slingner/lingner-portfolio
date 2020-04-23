@@ -42,15 +42,20 @@ export default function Filter() {
           rel="noopener noreferrer"
           aria-label="Link to Scott Lingner's Filter App"
         >
-          <p className="linktext">Live</p>
+          <p
+            aria-label="Link to Scott Lingner's Filter App"
+            className="linktext"
+          >
+            Live
+          </p>
         </LinkWrap>
       </TechWrapper>
 
       <TechWrapper>
-        <ReactLogo />
-        <CssLogo />
-        <PostgresLogo1 />
-        <NodeLogo />
+        <ReactLogo aria-label="ReactLogo" />
+        <CssLogo aria-label="CssLogo" />
+        <PostgresLogo1 aria-label="PostgresLogo" />
+        <NodeLogo aria-label="NodeLogo" />
       </TechWrapper>
     </ContentWrapper>
   );

@@ -28,7 +28,7 @@ export default function FrenchMoi() {
         rel="noopener noreferrer"
         aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
       >
-        <FrenchMoiLogo2 />
+        <FrenchMoiLogo2 aria-label="Logo of Scott Lingner's French Moi App" />
       </LinkWrap>
 
       <ProjectSubHeader style={{ color: colors.white }}>
@@ -50,7 +50,12 @@ export default function FrenchMoi() {
           target="_blank"
           aria-label="Github Link to Scott Lingner's French Moi Spaced Repetition App "
         >
-          <p className="linktext">Github</p>
+          <p
+            className="linktext"
+            aria-label="Link To Scott Lingner's Github For French Moi App"
+          >
+            Github
+          </p>
         </LinkWrap>
 
         <LinkWrap
@@ -60,15 +65,20 @@ export default function FrenchMoi() {
           aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
         >
           {' '}
-          <p className="linktext">Live</p>
+          <p
+            className="linktext"
+            aria-label="Link To Scott Lingner's French Moi Live App"
+          >
+            Live
+          </p>
         </LinkWrap>
       </TechWrapper>
 
       <TechWrapper>
-        <ReactLogo style={{ color: colors.white }} />
-        <CssLogo style={{ color: colors.white }} />
-        <PostgresLogo2 />
-        <NodeLogo style={{ color: colors.white }} />
+        <ReactLogo aria-label="React logo" style={{ color: colors.white }} />
+        <CssLogo aria-label="Css Logo" style={{ color: colors.white }} />
+        <PostgresLogo2 aria-label="PostgreSQL" />
+        <NodeLogo aria-label="Node.js Logo" style={{ color: colors.white }} />
       </TechWrapper>
 
       <PageHeader id="about" style={{ color: colors.white }}>

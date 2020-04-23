@@ -70,30 +70,34 @@ const Footer = () => (
       href="mailto: slingner@gmail.com"
       rel="noreferrer noopener"
       target="_blank"
+      aria-label="Link To Scott Lingner's Email"
     >
-      <EmailButton />
+      <EmailButton aria-label="Envelope Logo Link To Scott Lingner's Email" />
     </LinkWrap>
     <LinkWrap
       href="https://angel.co/u/scott-lingner"
       rel="noreferrer noopener"
       target="_blank"
+      aria-label="Link To Scott Lingner's Angel List"
     >
-      <AngelListButton />
+      <AngelListButton aria-label="Link To Scott Lingner's Angel List" />
     </LinkWrap>
     <LinkWrap
       href="https://www.linkedin.com/in/scott-lingner/"
       rel="noreferrer noopener"
       target="_blank"
+      aria-label="Link To Scott Lingner's LinkedIn"
     >
-      <LinkedInButton />
+      <LinkedInButton aria-label="Link To Scott Lingner's LinkedIn" />
     </LinkWrap>
     <LinkWrap
       href="https://github.com/slingner"
       rel="noreferrer noopener"
       target="_blank"
       style={{ marginBottom: '5px' }}
+      aria-label="Link To Scott Lingner's Github"
     >
-      <GithubButton />
+      <GithubButton aria-label="Link To Scott Lingner's Github" />
     </LinkWrap>
 
     <StyledLine />

@@ -21,6 +21,7 @@ function Contact() {
         href="mailto: slingner@gmail.com"
         rel="noreferrer noopener"
         target="_blank"
+        aria-label="Link To Scott Lingner's email"
       >
         slingner@gmail.com
       </EmailLink>
@@ -29,6 +30,7 @@ function Contact() {
         href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
         target="_blank"
         rel="nofollow noopener noreferrer"
+        aria-label="Link To Scott Lingner's Resume"
       >
         RESUME
       </ResumeLink>
@@ -44,6 +46,7 @@ function Contact() {
               fontSize: '50px',
               padding: '20px',
             }}
+            aria-label="Link To Scott Lingner's AngelList Page"
           />
         </LinkWrap>
 
@@ -57,6 +60,7 @@ function Contact() {
               fontSize: '50px',
               padding: '20px',
             }}
+            aria-label="Link To Scott Lingner's LinkedIn Page"
           />
         </LinkWrap>
 
@@ -70,6 +74,7 @@ function Contact() {
               fontSize: '50px',
               padding: '20px',
             }}
+            aria-label="Link To Scott Lingner's Github Page"
           />
         </LinkWrap>
       </ContactConentWrap>
@@ -78,10 +83,14 @@ function Contact() {
           fontSize: '22px',
           marginTop: '20px',
         }}
+        aria-label="Scott Lingner"
       >
         Scott Lingner
       </ContactPageSubHeader>
-      <ContactPageSubHeader style={{ marginBottom: '5px' }}>
+      <ContactPageSubHeader
+        aria-label="San Francisco, California"
+        style={{ marginBottom: '5px' }}
+      >
         San Francisco, California
       </ContactPageSubHeader>
     </ContactPageWrap>

@@ -27,7 +27,12 @@ export default function Home() {
     <main>
       <StyledDiv>
         <div id="divfix">
-          <Image src={Logo} className="img" alt="dashboard-view" />
+          <Image
+            aria-label="Scott Lingner's Logo Image"
+            src={Logo}
+            className="img"
+            alt="dashboard-view"
+          />
           <TextOnImage> Scott </TextOnImage>
           <TextOnImage2> Lingner </TextOnImage2>
         </div>

@@ -12,7 +12,7 @@ function NavBar() {
     <NavWrapper open={mobileNav}>
       <div className="mobile" onClick={toggleTrueFalse}>
         <MobileButton type="button" onClick={toggleTrueFalse}>
-          <Burger open={mobileNav} />
+          <Burger aria-label="Burger Nav Menu" open={mobileNav} />
         </MobileButton>
       </div>
 
