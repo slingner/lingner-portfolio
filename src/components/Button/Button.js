@@ -30,12 +30,17 @@ export const AngleDown = styled(AngleDownButton)`
   background: transparent;
   color: ${({ color }) => (color ? color : colors.slategrey)};
   border: none;
+  margin-top: 22%;
   font-size: 1.2em;
   z-index: 11;
   animation: ${bounce} 2s linear infinite;
   :hover {
     cursor: pointer;
     color: ${colors.white};
+  }
+
+  @media (min-width: 600px) {
+    margin-top: 1%;
   }
 `;
 

@@ -48,7 +48,7 @@ export const ResumeLink = styled.a`
 
 export const AboutContent = styled.p`
   color: ${colors.white};
-  font-size: 18px;
+  font-size: 22px;
   line-height: 28px;
   text-align: center;
   width: 88%;

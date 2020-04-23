@@ -34,7 +34,7 @@ export const ContentWrapper = styled.div`
   padding: 30px;
   text-align: center;
   > p {
-    font-size: 18px;
+    font-size: 21px;
   }
 `;
 
@@ -65,7 +65,7 @@ export const PageHeader = styled.h1`
 `;
 
 export const ProjectSubHeader = styled.h1`
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   color: ${colors.darkgrey};
   margin: auto;

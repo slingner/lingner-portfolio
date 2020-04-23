@@ -32,8 +32,8 @@ export const TextOnImage = styled.div`
   font-weight: bolder;
   letter-spacing: 7px;
 
-  @media (min-width: 500px) {
-    top: 48%;
+  @media (min-width: 600px) {
+    top: 49%;
     left: 35%;
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '4em')};
   }
@@ -55,24 +55,25 @@ export const TextOnImage2 = styled.div`
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '2em')};
   }
 
-  @media (min-width: 500px) {
+  @media (min-width: 600px) {
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '4em')};
-    top: 75%;
+    top: 78%;
     left: 60%;
   }
 `;
 
 export const SubText = styled.p`
-  font-size: ${({ fontsize }) => (fontsize ? fontsize : '17px')};
+  font-size: ${({ fontsize }) => (fontsize ? fontsize : '20px')};
   color: ${colors.darkgrey};
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
+  margin-top: 4%;
 
-  @media (min-width: 500px) {
-    font-size: ${({ fontsize }) => (fontsize ? fontsize : '22px')};
-    margin-top: 5%;
+  @media (min-width: 600px) {
+    font-size: ${({ fontsize }) => (fontsize ? fontsize : '24px')};
+    margin-top: 2%;
     margin-bottom: 2%;
     max-width: 45%;
   }
