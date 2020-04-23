@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutContent } from './About.style';
-import scott from './scott.jpg';
+import scott from './scott.webp';
 import { ScottPhoto, AboutPageWrap, AboutWrap } from './About.style';
 
 export default function About() {
