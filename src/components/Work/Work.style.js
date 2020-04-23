@@ -18,6 +18,7 @@ export const PageWrapper = styled.div`
 export const StyledP = styled.p`
   margin: auto;
   width: 88%;
+  line-height: 28px;
 
   @media (min-width: 600px) {
     width: 38%;
@@ -62,7 +63,7 @@ export const PageHeader = styled.h1`
 `;
 
 export const ProjectSubHeader = styled.h1`
-  font-size: 25px;
+  font-size: 18px;
   color: ${colors.darkgrey};
   margin: auto;
   padding-bottom: 20px;
@@ -71,6 +72,7 @@ export const ProjectSubHeader = styled.h1`
   @media (min-width: 600px) {
     width: 40%;
     height: auto;
+    font-size: 25px;
   }
 `;
 
@@ -125,7 +127,6 @@ export const FrenchMoiLogo2 = (props) => {
     <>
       <FrenchMoi
         aria-label="Filter Logo -- Scott Lingner's App"
-        className="logo"
         style={{
           width: '45%',
           alignSelf: 'center',

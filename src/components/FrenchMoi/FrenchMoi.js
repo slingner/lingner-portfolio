@@ -1,7 +1,6 @@
 import React from 'react';
 import { FrenchMoiLogo2 } from '../Work/Work.style';
 import { ReactLogo, CssLogo, NodeLogo, TechWrapper } from '../Button/Button';
-
 import { colors } from '../constants';
 import {
   ContentWrapper,

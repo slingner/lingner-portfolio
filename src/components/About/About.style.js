@@ -77,10 +77,10 @@ export const AboutContent = styled.p`
 
 export const ScottPhoto = styled.img`
   /* border-radius: 100%; */
-  margin: auto;
+  margin: 10px auto;
   padding: 10px;
-  height: auto;
-  width: 360px;
+  height: 260px;
+  width: auto;
   /* border-radius: 30px; */
 
   @media (min-width: 600px) {
