@@ -4,7 +4,6 @@ import styled from 'styled-components/macro';
 import { colors } from '../constants';
 import { ReactComponent as FokulLogo } from './Assets/FOLKUL_1.svg';
 import { ReactComponent as FilterLogo } from './Assets/filter.svg';
-import { ReactComponent as FilterLogoHand } from './Assets/filterlogohand.svg';
 import { ReactComponent as FrenchMoi } from './Assets/frenchmoi.svg';
 import { ReactComponent as PostgresLogo } from './Assets/postgresql.svg';
 import { ReactComponent as StyledComponentsLogo } from './Assets/styled-components.svg';
