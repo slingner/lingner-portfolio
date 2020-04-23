@@ -100,8 +100,10 @@ export const FolkulLogo1 = (props) => {
           width: '40%',
           alignSelf: 'center',
           fill: colors.darkgrey,
-          paddingBottom: '2%',
+          paddingBottom: '1%',
           paddingTop: '4%',
+          maxHeight: '200px',
+          minHeight: '100px',
         }}
       />
     </>
@@ -110,34 +112,19 @@ export const FolkulLogo1 = (props) => {
 
 export const FilterLogo1 = (props) => {
   return (
-    <div
+    <FilterLogo
+      aria-label="Filter Logo -- Scott Lingner's App"
+      className="logo"
       style={{
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginRight: '10%',
+        width: '30%',
+        alignSelf: 'center',
+        fill: colors.darkgrey,
+        paddingTop: '4%',
+        paddingBottom: '1%',
+        maxHeight: '250px',
+        minHeight: '100px',
       }}
-    >
-      <FilterLogoHand
-        style={{
-          width: '30%',
-          alignSelf: 'center',
-          fill: colors.darkergrey,
-          paddingBottom: '4%',
-          marginRight: '-8%',
-        }}
-      />
-      <FilterLogo
-        aria-label="Filter Logo -- Scott Lingner's App"
-        className="logo"
-        style={{
-          width: '38%',
-          alignSelf: 'center',
-          fill: colors.darkgrey,
-        }}
-      />
-    </div>
+    />
   );
 };
 
@@ -150,8 +137,10 @@ export const FrenchMoiLogo2 = (props) => {
           width: '45%',
           alignSelf: 'center',
           fill: '#e3ccdc',
-          paddingBottom: '2%',
+          paddingBottom: '1%',
           paddingTop: '4%',
+          maxHeight: '200px',
+          minHeight: '100px',
         }}
       />
     </>
