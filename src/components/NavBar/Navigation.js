@@ -75,11 +75,6 @@ const Navigation = (props) => {
           rel="nofollow noopener noreferrer"
           onClick={props.toggleNav}
           color={props.color}
-          // style={{
-          //   fontSize: '40px',
-          //   padding: '8px',
-          //   borderBottom: '1px solid white',
-          // }}
         >
           RESUME
         </NavItem>

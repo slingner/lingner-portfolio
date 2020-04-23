@@ -8,10 +8,7 @@ export const AboutPageWrap = styled.div`
   height: 100%;
   @media (min-width: 900px) {
     flex-direction: row;
-    /* width: 50%; */
-    /* padding: 50%; */
     margin: auto;
-    /* padding: 100px; */
   }
 `;
 
@@ -19,13 +16,10 @@ export const AboutWrap = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${colors.slategrey};
-  /* height: 100%; */
   @media (min-width: 900px) {
     flex-direction: row;
     width: 68%;
-    /* padding: 50%; */
     margin: auto;
-    /* padding: 100px; */
   }
 `;
 
@@ -40,7 +34,6 @@ export const ResumeLink = styled.a`
   font-family: 'Raleway', sans-serif;
   font-display: swap;
   text-align: center;
-  /* border: 1px solid white; */
   padding: 12px;
 
   :hover {
@@ -77,12 +70,10 @@ export const AboutContent = styled.p`
 `;
 
 export const ScottPhoto = styled.img`
-  /* border-radius: 100%; */
   margin: 15px auto;
   padding: 10px;
   height: 18em;
   width: auto;
-  /* border-radius: 30px; */
 
   @media (min-width: 600px) {
     margin-top: 70px;

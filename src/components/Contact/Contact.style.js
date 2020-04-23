@@ -22,7 +22,6 @@ export const ContactConentWrap = styled.div`
   justify-content: center;
   background-color: ${colors.slategrey};
   text-align: center;
-  /* height: 50%; */
   @media (min-width: 600px) {
     display: none;
   }
