@@ -1,6 +1,5 @@
 import React from 'react';
 import { ReactLogo, CssLogo, NodeLogo, TechWrapper } from '../Button/Button';
-
 import { colors } from '../constants';
 import {
   FilterLogo1,

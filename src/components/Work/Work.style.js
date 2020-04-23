@@ -4,6 +4,7 @@ import styled from 'styled-components/macro';
 import { colors } from '../constants';
 import { ReactComponent as FokulLogo } from './Assets/FOLKUL_1.svg';
 import { ReactComponent as FilterLogo } from './Assets/filter.svg';
+import { ReactComponent as FilterLogoHand } from './Assets/filterlogohand.svg';
 import { ReactComponent as FrenchMoi } from './Assets/frenchmoi.svg';
 import { ReactComponent as PostgresLogo } from './Assets/postgresql.svg';
 import { ReactComponent as StyledComponentsLogo } from './Assets/styled-components.svg';
@@ -99,8 +100,8 @@ export const FolkulLogo1 = (props) => {
           width: '40%',
           alignSelf: 'center',
           fill: colors.darkgrey,
-          paddingBottom: '40px',
-          paddingTop: '35px',
+          paddingBottom: '2%',
+          paddingTop: '4%',
         }}
       />
     </>
@@ -109,19 +110,34 @@ export const FolkulLogo1 = (props) => {
 
 export const FilterLogo1 = (props) => {
   return (
-    <>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: '10%',
+      }}
+    >
+      <FilterLogoHand
+        style={{
+          width: '30%',
+          alignSelf: 'center',
+          fill: colors.darkergrey,
+          paddingBottom: '4%',
+          marginRight: '-8%',
+        }}
+      />
       <FilterLogo
         aria-label="Filter Logo -- Scott Lingner's App"
         className="logo"
         style={{
-          width: '20%',
+          width: '38%',
           alignSelf: 'center',
           fill: colors.darkgrey,
-          paddingBottom: '20px',
-          paddingTop: '35px',
         }}
       />
-    </>
+    </div>
   );
 };
 
@@ -134,8 +150,8 @@ export const FrenchMoiLogo2 = (props) => {
           width: '45%',
           alignSelf: 'center',
           fill: '#e3ccdc',
-          paddingBottom: '20px',
-          paddingTop: '35px',
+          paddingBottom: '2%',
+          paddingTop: '4%',
         }}
       />
     </>

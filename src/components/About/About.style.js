@@ -78,15 +78,15 @@ export const AboutContent = styled.p`
 
 export const ScottPhoto = styled.img`
   /* border-radius: 100%; */
-  margin: 10px auto;
+  margin: 15px auto;
   padding: 10px;
-  height: 260px;
+  height: 18em;
   width: auto;
   /* border-radius: 30px; */
 
   @media (min-width: 600px) {
     margin-top: 70px;
-    height: auto;
-    width: 360px;
+    height: 25em;
+    width: auto;
   }
 `;
