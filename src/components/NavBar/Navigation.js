@@ -52,19 +52,34 @@ const Navigation = (props) => {
   return (
     <NavLinks direction={props.direction}>
       <li className="nav-links" color={props.color}>
-        <NavItem href="#about" onClick={props.toggleNav} color={props.color}>
+        <NavItem
+          aria-label="About Link"
+          href="#about"
+          onClick={props.toggleNav}
+          color={props.color}
+        >
           ABOUT
         </NavItem>
       </li>
 
       <li className="nav-links" color={props.color}>
-        <NavItem href="#work" onClick={props.toggleNav} color={props.color}>
+        <NavItem
+          href="#work"
+          aria-label="Projects Link"
+          onClick={props.toggleNav}
+          color={props.color}
+        >
           PROJECTS
         </NavItem>
       </li>
 
       <li className="nav-links" color={props.color}>
-        <NavItem href="#contact" onClick={props.toggleNav} color={props.color}>
+        <NavItem
+          aria-label="Contact Link"
+          href="#contact"
+          onClick={props.toggleNav}
+          color={props.color}
+        >
           CONTACT
         </NavItem>
       </li>
@@ -75,6 +90,7 @@ const Navigation = (props) => {
           rel="nofollow noopener noreferrer"
           onClick={props.toggleNav}
           color={props.color}
+          aria-label="Resume Link"
         >
           RESUME
         </NavItem>

@@ -47,7 +47,7 @@ const StyledBurger = styled.button`
 
 const Burger = (props) => {
   return (
-    <StyledBurger open={props.open}>
+    <StyledBurger aria-label="burger menu button" open={props.open}>
       <div />
       <div />
       <div />
