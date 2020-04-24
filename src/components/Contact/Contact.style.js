@@ -8,6 +8,7 @@ export const ContactPageWrap = styled.div`
   text-align: center;
   justify-content: center;
   height: 100%;
+  padding-bottom: 30px;
 
   @media (min-width: 600px) {
     margin: auto;
