@@ -42,11 +42,18 @@ export default function FrenchMoi() {
         answers, a list of French words to memorize, as well as the overall
         number count for correct and incorrect answers.
       </StyledP>
-      <img
-        src={FrenchMoiPng}
-        alt="Scott Lingner Filter App Screenshot"
-        style={{ height: 'auto', width: '60%', margin: 'auto' }}
-      />
+      <LinkWrap
+        href="https://frenchmoi.now.sh/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
+      >
+        <img
+          src={FrenchMoiPng}
+          alt="Scott Lingner Filter App Screenshot"
+          style={{ height: 'auto', width: '80%', margin: 'auto' }}
+        />
+      </LinkWrap>
       <TechWrapper>
         <LinkWrap
           href="https://github.com/thinkful-ei-jaguar/FrenchMe-Client-Robert-Scott"

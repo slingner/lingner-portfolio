@@ -27,11 +27,18 @@ export default function Filter() {
         A user-focused application giving you the opportunity to explore coffee
         beans that are responsibly sourced from crops around the world.{' '}
       </StyledP>
-      <img
-        src={FilterPng}
-        alt="Scott Lingner Filter App Screenshot"
-        style={{ height: 'auto', width: '60%', margin: 'auto' }}
-      />
+      <LinkWrap
+        href="https://filter-app.now.sh/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Link to Scott Lingner's Filter App"
+      >
+        <img
+          src={FilterPng}
+          alt="Scott Lingner Filter App Screenshot"
+          style={{ height: 'auto', width: '80%', margin: 'auto' }}
+        />
+      </LinkWrap>
       <TechWrapper>
         <LinkWrap
           href="https://github.com/slingner/filter-client"

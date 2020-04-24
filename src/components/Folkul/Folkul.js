@@ -30,11 +30,18 @@ export default function Folkul() {
         other users and then share this idea with them - getting criticism,
         feedback and overall collaboration.
       </StyledP>
-      <img
-        src={FolkulPng}
-        alt="Scott Lingner Filter App Screenshot"
-        style={{ height: 'auto', width: '60%', margin: 'auto' }}
-      />
+      <LinkWrap
+        href="https://folkul.now.sh"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Live Link to Scott Lingner's Folkul App "
+      >
+        <img
+          src={FolkulPng}
+          alt="Scott Lingner Filter App Screenshot"
+          style={{ height: 'auto', width: '80%', margin: 'auto' }}
+        />
+      </LinkWrap>
       <TechWrapper>
         <LinkWrap
           href="https://github.com/kraigwilliams/motive-client"
