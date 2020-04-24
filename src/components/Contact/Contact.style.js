@@ -12,7 +12,7 @@ export const ContactPageWrap = styled.div`
   @media (min-width: 600px) {
     margin: auto;
     flex-direction: column;
-    height: 40vh;
+    height: 100%;
   }
 `;
 
