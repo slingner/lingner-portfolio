@@ -37,7 +37,7 @@ export default function Home() {
           <TextOnImage2> Lingner </TextOnImage2>
         </div>
         <SubText>
-          I'm a San Francisco based full stack developer focused on creating
+          I'm a San Francisco-based full stack developer focused on creating
           efficient and impactful applications.
         </SubText>
 
