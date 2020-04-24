@@ -9,20 +9,22 @@ function NavBar() {
   const toggleTrueFalse = () => setMobileNav(!mobileNav);
 
   return (
-    <NavWrapper open={mobileNav}>
-      <div className="mobile" onClick={toggleTrueFalse}>
-        <MobileButton type="button" onClick={toggleTrueFalse}>
-          <Burger aria-label="Burger Nav Menu" open={mobileNav} />
-        </MobileButton>
-      </div>
+    <header>
+      <NavWrapper open={mobileNav}>
+        <div className="mobile" onClick={toggleTrueFalse}>
+          <MobileButton type="button" onClick={toggleTrueFalse}>
+            <Burger aria-label="Burger Nav Menu" open={mobileNav} />
+          </MobileButton>
+        </div>
 
-      {mobileNav ? (
-        <MobileNavBar
-          toggleNav={toggleTrueFalse}
-          displayMobileNavBar={mobileNav}
-        />
-      ) : null}
-    </NavWrapper>
+        {mobileNav ? (
+          <MobileNavBar
+            toggleNav={toggleTrueFalse}
+            displayMobileNavBar={mobileNav}
+          />
+        ) : null}
+      </NavWrapper>
+    </header>
   );
 }
 

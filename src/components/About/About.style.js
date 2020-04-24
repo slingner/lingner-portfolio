@@ -47,7 +47,7 @@ export const ResumeLink = styled.a`
 `;
 
 export const AboutContent = styled.p`
-  color: ${colors.white};
+  color: rgb(35, 35, 35);
   font-size: 22px;
   line-height: 28px;
   text-align: center;
@@ -56,10 +56,13 @@ export const AboutContent = styled.p`
 
   .rbc {
     text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
+    color: rgb(35, 35, 35);
+    border-bottom: 1px solid rgb(35, 35, 35);
   }
 
+  .rbc:hover {
+    color: ${colors.white};
+  }
   @media (min-width: 600px) {
     margin-top: 90px;
     padding-left: 10px;

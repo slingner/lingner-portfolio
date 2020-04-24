@@ -67,7 +67,7 @@ export const PageHeader = styled.h1`
 export const ProjectSubHeader = styled.h1`
   font-size: 25px;
   font-weight: bold;
-  color: ${colors.darkgrey};
+  color: ${colors.darkergrey};
   margin: auto;
   padding-bottom: 20px;
   width: 85%;
@@ -194,8 +194,11 @@ const flipOutXAnimation = keyframes`${flipOutX}`;
 export const LinkWrap = styled.a`
   text-decoration: none;
   .linktext {
-    color: white;
-    padding: 0 20px 0 20px;
+    color: ${colors.darkergrey};
+    padding: 6px 6px;
+    border: 1px solid ${colors.darkergrey};
+    width: 130px;
+    margin: 5px 5px;
 
     :hover {
       animation: 0.5s ${flipOutXAnimation};

@@ -10,6 +10,7 @@ import {
   StyledP,
   PageHeader,
 } from '../Work/Work.style';
+import FrenchMoiPng from './frenchmoi.png';
 
 export default function FrenchMoi() {
   return (
@@ -41,7 +42,11 @@ export default function FrenchMoi() {
         answers, a list of French words to memorize, as well as the overall
         number count for correct and incorrect answers.
       </StyledP>
-
+      <img
+        src={FrenchMoiPng}
+        alt="Scott Lingner Filter App Screenshot"
+        style={{ height: 'auto', width: '60%', margin: 'auto' }}
+      />
       <TechWrapper>
         <LinkWrap
           href="https://github.com/thinkful-ei-jaguar/FrenchMe-Client-Robert-Scott"
@@ -52,6 +57,7 @@ export default function FrenchMoi() {
           <p
             className="linktext"
             aria-label="Link To Scott Lingner's Github For French Moi App"
+            style={{ color: colors.white, border: '1px solid white' }}
           >
             Github
           </p>
@@ -67,6 +73,7 @@ export default function FrenchMoi() {
           <p
             className="linktext"
             aria-label="Link To Scott Lingner's French Moi Live App"
+            style={{ color: colors.white, border: '1px solid white' }}
           >
             Live
           </p>

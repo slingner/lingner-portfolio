@@ -10,6 +10,7 @@ import {
   StyledComponentsLogo1,
   StyledP,
 } from '../Work/Work.style';
+import FolkulPng from './folkul.png';
 
 export default function Folkul() {
   return (
@@ -23,13 +24,17 @@ export default function Folkul() {
         <FolkulLogo1 aria-label="Logo and Link to Scott Lingner's Folkul App" />
       </LinkWrap>
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>
-      <StyledP style={{ color: colors.darkgrey }}>
+      <StyledP style={{ color: colors.darkergrey }}>
         Folkul is a place where you can privately gather your thoughts - this
         can be small ideas to the next greatest invention. You can connect to
         other users and then share this idea with them - getting criticism,
         feedback and overall collaboration.
       </StyledP>
-
+      <img
+        src={FolkulPng}
+        alt="Scott Lingner Filter App Screenshot"
+        style={{ height: 'auto', width: '60%', margin: 'auto' }}
+      />
       <TechWrapper>
         <LinkWrap
           href="https://github.com/kraigwilliams/motive-client"

@@ -44,7 +44,7 @@ export const NavItem = styled.a`
 
   @media (max-width: 374px) {
     text-align: left;
-    font-size: 60px;
+    font-size: 40px;
   }
 `;
 

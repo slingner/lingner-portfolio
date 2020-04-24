@@ -7,7 +7,7 @@ export const ContactPageWrap = styled.div`
   background-color: ${colors.slategrey};
   text-align: center;
   justify-content: center;
-  height: 60vh;
+  height: 100%;
 
   @media (min-width: 600px) {
     margin: auto;
@@ -22,6 +22,7 @@ export const ContactConentWrap = styled.div`
   justify-content: center;
   background-color: ${colors.slategrey};
   text-align: center;
+  height: 100%;
   @media (min-width: 600px) {
     display: none;
   }
@@ -40,11 +41,15 @@ export const ContactPageHeader = styled.h1`
     text-align: right;
     margin-right: 80px;
   }
+
+  @media (max-width: 420px) {
+    margin-top: 5%;
+  }
 `;
 export const ContactPageSubHeader = styled.h2`
   text-align: center;
-  color: ${colors.white};
   font-size: 16px;
+  color: rgb(35, 35, 35);
 
   @media (min-width: 600px) {
     margin-right: 80px;

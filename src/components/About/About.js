@@ -29,7 +29,7 @@ export default function About() {
           </a>
           <br />
           <br />
-          I’m always open to discussing devlopment work or collaborative
+          I’m always open to discussing development work or collaborative
           opportunities.
           <br />
         </AboutContent>
