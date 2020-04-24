@@ -6,7 +6,7 @@ Feel free to reach out if you'd like to collaborate on a project!
 
 ## Deployed App:
 
-https://scottlingner.now.sh/
+https://scottlingner.com
 
 ## Tech Stack:
 
