@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutContent } from './About.style';
-import scott from './scott.webp';
+import scott from './scott.png';
 import { ScottPhoto, AboutPageWrap, AboutWrap } from './About.style';
 
 export default function About() {
@@ -12,10 +12,10 @@ export default function About() {
           My mission as a developer is to help companies grow with impactful and
           efficient applications.
           <br />
-          <br />I am a project-oriented developer with a strong background in
+          <br />I am a collaborative developer with a strong background in
           building interactive web applications from the ground up. I have a
-          creative problem-solving and agile mindset from my 8+ years of
-          experience in the photography and advertising industry.
+          creative problem-solving and agile mindset from 8 years of experience
+          in the photography and advertising industry.
           <br />
           <br />
           In my spare time, I illustrate paper goods under{' '}

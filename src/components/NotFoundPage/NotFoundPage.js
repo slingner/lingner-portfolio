@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import { PageWrapper } from '../constants';
 import { colors } from '../constants';
-import 'lazysizes';
-import Bear from './notfoundbear.webp';
+import Bear from './notfoundbear.jpg';
 
 export default class NotFoundPage extends Component {
   render() {
     return (
       <PageWrapper
         textalign="center"
-        style={{ padding: '50px', color: colors.darkgrey }}
+        style={{
+          padding: '50px',
+          color: colors.darkgrey,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
         className="NotFoundPage"
       >
         <h2 style={{ color: '#cc422d' }}>404 - Page not found</h2>
@@ -19,11 +25,12 @@ export default class NotFoundPage extends Component {
           rel="noopener noreferrer"
         >
           <img
-            data-src={Bear}
-            width="650"
+            src={Bear}
             alt="Not Found Bear"
-            className="lazyload"
-            style={{ margin: '1px auto', marginTop: '10px' }}
+            style={{
+              margin: 'auto',
+              width: '480px',
+            }}
           />
         </a>
         <p style={{ marginTop: '10px' }}>

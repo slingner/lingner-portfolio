@@ -154,6 +154,7 @@ export const PostgresLogo1 = (props) => {
         style={{
           width: '40px',
           fill: colors.white,
+          padding: '2',
         }}
       />
     </>
@@ -167,6 +168,7 @@ export const PostgresLogo2 = (props) => {
         style={{
           width: '40px',
           fill: colors.white,
+          padding: '2',
         }}
       />
     </>

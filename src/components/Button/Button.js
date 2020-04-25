@@ -49,7 +49,8 @@ export const TechWrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   margin: 0px auto;
-  padding: 10px 15px 0px 5px;
+  padding: 8px;
+  align-items: center;
 `;
 
 const React1 = React.forwardRef(({ className, ...props }, ref) => {
@@ -64,6 +65,7 @@ export const ReactLogo = styled(React1)`
   background: transparent;
   border: none;
   font-size: 30px;
+  padding: 2;
   color: ${colors.white};
 `;
 
@@ -79,6 +81,7 @@ export const CssLogo = styled(CSS3)`
   background: transparent;
   border: none;
   font-size: 30px;
+  padding: 2;
   color: ${colors.white};
 `;
 
@@ -94,6 +97,7 @@ export const NodeLogo = styled(Node)`
   background: transparent;
   border: none;
   font-size: 34px;
+  padding: 2;
   color: ${colors.white};
 `;
 
@@ -109,6 +113,7 @@ export const LiveLinkButton = styled(LiveLink)`
   background: transparent;
   border: none;
   font-size: 30px;
+  padding: 2;
   color: ${colors.white};
 
   :hover {
@@ -159,6 +164,7 @@ export const LinkedInButton = styled(LinkedIn)`
   background: transparent;
   border: none;
   font-size: 30px;
+  padding: 0;
   color: ${colors.white};
 
   :hover {
@@ -187,6 +193,7 @@ export const EmailButton = styled(Email)`
   background: transparent;
   border: none;
   font-size: 30px;
+
   color: ${colors.white};
 
   :hover {

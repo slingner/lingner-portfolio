@@ -26,7 +26,7 @@ export default function FrenchMoi() {
         href="https://frenchmoi.now.sh/"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
+        aria-label="Live Link to Scott Lingner's French Moi Spaced Repetition App "
       >
         <FrenchMoiLogo2 aria-label="Logo of Scott Lingner's French Moi App" />
       </LinkWrap>
@@ -36,7 +36,7 @@ export default function FrenchMoi() {
       </ProjectSubHeader>
 
       <StyledP style={{ color: colors.white }}>
-        French Moi is an app that utilizes spaced-repetition to help users
+        French Moi is an app that utilizes spaced repetition to help users
         memorize French words. The user will have the option to login or signup,
         and then will be directed to a dashboard displaying their total correct
         answers, a list of French words to memorize, as well as the overall
@@ -46,7 +46,7 @@ export default function FrenchMoi() {
         href="https://frenchmoi.now.sh/"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
+        aria-label="Live Link to Scott Lingner's French Moi Spaced Repetition App "
       >
         <img
           src={FrenchMoiPng}
@@ -74,7 +74,7 @@ export default function FrenchMoi() {
           href="https://frenchmoi.now.sh/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Live Link to Scott Lingner's French Moi Spaced-Repetition App "
+          aria-label="Live Link to Scott Lingner's French Moi Spaced Repetition App"
         >
           {' '}
           <p
