@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main>
       <StyledDiv>
-        <div id="divfix">
+        <div className="divfix">
           <Image
             aria-label="Scott Lingner's Logo Image"
             src={Logo}

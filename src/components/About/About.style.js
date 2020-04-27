@@ -53,6 +53,7 @@ export const AboutContent = styled.p`
   text-align: center;
   width: 88%;
   margin: auto;
+  margin-bottom: 10%;
 
   .rbc {
     text-decoration: none;

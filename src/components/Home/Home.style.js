@@ -14,9 +14,31 @@ export const StyledDiv = styled.div`
   }
   z-index: 17;
 
-  #divfix {
+  .divfix {
     position: sticky;
     z-index: 3000;
+  }
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .divfix {
+      margin-top: 35%;
+    } /* your css rules for ipad portrait */
+  }
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+    .divfix {
+      margin-top: 10%;
+    } /* your css rules for ipad landscape */
+  }
+
+  @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    .divfix {
+      margin-top: 35%;
+    } /* your css rules for ipadpro portrait */
+  }
+  @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+    .divfix {
+      margin-top: 10%;
+    } /* your css rules for ipadpro landscape */
   }
 `;
 

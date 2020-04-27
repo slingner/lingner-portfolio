@@ -60,7 +60,7 @@ export const ContactPageSubHeader = styled.h2`
 `;
 
 export const EmailLink = styled.a`
-  color: ${colors.white};
+  color: rgb(35, 35, 35);
   margin-top: 28px;
   margin-bottom: 10px;
   text-align: center;
@@ -80,7 +80,7 @@ export const EmailLink = styled.a`
 `;
 
 export const ResumeLink = styled.a`
-  color: ${(props) => (props.color ? props.color : colors.white)};
+  color: ${(props) => (props.color ? props.color : 'rgb(35, 35, 35)')};
   text-decoration: none;
 
   margin: 15px auto;
