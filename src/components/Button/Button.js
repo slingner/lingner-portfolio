@@ -47,9 +47,9 @@ export const AngleDown = styled(AngleDownButton)`
 export const TechWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin: 0px auto;
-  padding: 8px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4px auto;
   align-items: center;
 `;
 

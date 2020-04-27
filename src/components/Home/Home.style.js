@@ -30,9 +30,9 @@ export const StyledDiv = styled.div`
   }
 
   @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
-    height: 50vh;
+    height: 81vh;
     .divfix {
-      margin-top: 20%;
+      margin-top: 30%;
     } /* your css rules for ipadpro portrait */
   }
   @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
