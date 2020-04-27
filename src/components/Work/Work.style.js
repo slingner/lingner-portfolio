@@ -25,6 +25,21 @@ export const StyledP = styled.p`
     width: 38%;
     font-size: 28px;
   }
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    width: 60%;
+  }
+
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+    width: 60%;
+  }
+
+  @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    width: 60%;
+  }
+  @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {
+    width: 60%;
+  }
 `;
 
 export const ContentWrapper = styled.div`

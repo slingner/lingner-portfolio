@@ -9,9 +9,6 @@ export const StyledDiv = styled.div`
   position: relative;
   background-color: transparent;
   height: 100vh;
-
-  @media screen and (max-width: 600px) {
-  }
   z-index: 17;
 
   .divfix {
@@ -20,8 +17,10 @@ export const StyledDiv = styled.div`
   }
 
   @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    height: 70vh;
+
     .divfix {
-      margin-top: 35%;
+      margin-top: 20%;
     } /* your css rules for ipad portrait */
   }
   @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
@@ -31,8 +30,9 @@ export const StyledDiv = styled.div`
   }
 
   @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    height: 50vh;
     .divfix {
-      margin-top: 35%;
+      margin-top: 20%;
     } /* your css rules for ipadpro portrait */
   }
   @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation: landscape) {

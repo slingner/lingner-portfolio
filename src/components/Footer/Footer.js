@@ -19,7 +19,7 @@ export const StyledFooter = styled.footer`
     position: fixed;
     text-align: center;
     margin-left: 20px;
-
+    align-items: center;
     bottom: 0;
     z-index: 20;
   }
@@ -34,7 +34,7 @@ export const LinkWrap = styled.a`
   padding-top: 20px;
 
   @media (min-width: 600px) {
-    margin-right: 80px;
+    /* margin-right: 80px; */
     font-size: 32px;
   }
 
@@ -59,7 +59,7 @@ export const StyledLine = styled.div`
   width: 1px;
   padding: 2px;
   background-color: ${colors.white};
-  margin-left: 23px;
+  /* margin-left: 23px; */
   margin-top: 5px;
 `;
 
