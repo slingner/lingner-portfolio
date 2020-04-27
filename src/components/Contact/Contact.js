@@ -27,7 +27,7 @@ function Contact() {
       </EmailLink>
 
       <ResumeLink
-        href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/ScottLingner_Resume.pdf"
+        href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/Scott_Lingner_Resume.pdf"
         target="_blank"
         rel="nofollow noopener noreferrer"
         aria-label="Link To Scott Lingner's Resume"
