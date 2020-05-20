@@ -55,7 +55,6 @@ export const ContentWrapper = styled.div`
 
 export const PageHeader = styled.h1`
   font-family: 'Raleway', sans-serif;
-
   align-items: center;
   letter-spacing: 4px;
   background-color: transparent;

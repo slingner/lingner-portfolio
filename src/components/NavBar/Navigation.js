@@ -29,7 +29,6 @@ export const NavItem = styled.a`
   margin: 0px auto;
   font-size: 60px;
   font-family: 'Raleway', sans-serif;
-  font-display: swap;
 
   :hover {
     cursor: pointer;
@@ -51,10 +50,10 @@ export const NavItem = styled.a`
 const Navigation = (props) => {
   return (
     <NavLinks direction={props.direction}>
-      <li className="nav-links" color={props.color}>
+      <li className='nav-links' color={props.color}>
         <NavItem
-          aria-label="About Link"
-          href="#about"
+          aria-label='About Link'
+          href='#about'
           onClick={props.toggleNav}
           color={props.color}
         >
@@ -62,10 +61,10 @@ const Navigation = (props) => {
         </NavItem>
       </li>
 
-      <li className="nav-links" color={props.color}>
+      <li className='nav-links' color={props.color}>
         <NavItem
-          href="#work"
-          aria-label="Projects Link"
+          href='#work'
+          aria-label='Projects Link'
           onClick={props.toggleNav}
           color={props.color}
         >
@@ -73,24 +72,24 @@ const Navigation = (props) => {
         </NavItem>
       </li>
 
-      <li className="nav-links" color={props.color}>
+      <li className='nav-links' color={props.color}>
         <NavItem
-          aria-label="Contact Link"
-          href="#contact"
+          aria-label='Contact Link'
+          href='#contact'
           onClick={props.toggleNav}
           color={props.color}
         >
           CONTACT
         </NavItem>
       </li>
-      <li className="nav-links" color={props.color}>
+      <li className='nav-links' color={props.color}>
         <NavItem
-          href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/Scott_Lingner_Resume.pdf"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
+          href='https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/Scott_Lingner_Resume.pdf'
+          target='_blank'
+          rel='nofollow noopener noreferrer'
           onClick={props.toggleNav}
           color={props.color}
-          aria-label="Resume Link"
+          aria-label='Resume Link'
         >
           RESUME
         </NavItem>
