@@ -55,7 +55,7 @@ export const ContentWrapper = styled.div`
 
 export const PageHeader = styled.h1`
   font-family: 'Raleway', sans-serif;
-  font-display: swap;
+
   align-items: center;
   letter-spacing: 4px;
   background-color: transparent;
@@ -109,7 +109,7 @@ export const FolkulLogo1 = (props) => {
     <>
       <FokulLogo
         aria-label="Folkul Logo - Scott Lingner's App"
-        className="logo"
+        className='logo'
         style={{
           width: '40%',
           alignSelf: 'center',
@@ -128,7 +128,7 @@ export const FilterLogo1 = (props) => {
   return (
     <FilterLogo
       aria-label="Filter Logo -- Scott Lingner's App"
-      className="logo"
+      className='logo'
       style={{
         width: '30%',
         alignSelf: 'center',
@@ -165,7 +165,7 @@ export const PostgresLogo1 = (props) => {
   return (
     <>
       <PostgresLogo
-        aria-label="Postgres Logo"
+        aria-label='Postgres Logo'
         style={{
           width: '40px',
           fill: colors.white,
@@ -179,7 +179,7 @@ export const PostgresLogo2 = (props) => {
   return (
     <>
       <PostgresLogo
-        aria-label="Postgres Logo"
+        aria-label='Postgres Logo'
         style={{
           width: '40px',
           fill: colors.white,
@@ -194,7 +194,7 @@ export const StyledComponentsLogo1 = (props) => {
   return (
     <>
       <StyledComponentsLogo
-        aria-label="Styled Components Logo"
+        aria-label='Styled Components Logo'
         style={{
           width: '65px',
           paddingLeft: '5px',
