@@ -15,31 +15,39 @@ import {
 } from './Contact.style';
 function Contact() {
   return (
-    <ContactPageWrap id="contact">
+    <ContactPageWrap id='contact'>
       <ContactPageHeader>Say hi.</ContactPageHeader>
       <EmailLink
-        href="mailto: slingner@gmail.com"
-        rel="noreferrer noopener"
-        target="_blank"
+        href='mailto: slingner@gmail.com'
+        rel='noreferrer noopener'
+        target='_blank'
         aria-label="Link To Scott Lingner's email"
       >
         slingner@gmail.com
       </EmailLink>
 
       <ResumeLink
-        href="https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/Scott_Lingner_Resume.pdf"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
+        href='https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/Scott_Lingner_Resume.pdf'
+        target='_blank'
+        rel='nofollow noopener noreferrer'
         aria-label="Link To Scott Lingner's Resume"
       >
         RESUME
       </ResumeLink>
+      <ResumeLink
+        href='https://coverstory.page/profile/slingner'
+        target='_blank'
+        rel='nofollow noopener noreferrer'
+        aria-label="Link To Scott Lingner's Video Cover Letter"
+      >
+        VIDEO COVER
+      </ResumeLink>
 
       <ContactConentWrap>
         <LinkWrap
-          href="https://angel.co/u/scott-lingner"
-          rel="noreferrer noopener"
-          target="_blank"
+          href='https://angel.co/u/scott-lingner'
+          rel='noreferrer noopener'
+          target='_blank'
         >
           <AngelListButton
             style={{
@@ -51,9 +59,9 @@ function Contact() {
         </LinkWrap>
 
         <LinkWrap
-          href="https://www.linkedin.com/in/scott-lingner/"
-          rel="noreferrer noopener"
-          target="_blank"
+          href='https://www.linkedin.com/in/scott-lingner/'
+          rel='noreferrer noopener'
+          target='_blank'
         >
           <LinkedInButton
             style={{
@@ -65,9 +73,9 @@ function Contact() {
         </LinkWrap>
 
         <LinkWrap
-          href="https://github.com/slingner"
-          rel="noreferrer noopener"
-          target="_blank"
+          href='https://github.com/slingner'
+          rel='noreferrer noopener'
+          target='_blank'
         >
           <GithubButton
             style={{
@@ -83,12 +91,12 @@ function Contact() {
           fontSize: '22px',
           marginTop: '20px',
         }}
-        aria-label="Scott Lingner"
+        aria-label='Scott Lingner'
       >
         Scott Lingner
       </ContactPageSubHeader>
       <ContactPageSubHeader
-        aria-label="San Francisco, California"
+        aria-label='San Francisco, California'
         style={{ marginBottom: '5px' }}
       >
         San Francisco, California

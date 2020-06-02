@@ -42,6 +42,8 @@ export const StyledDiv = styled.div`
   }
 `;
 
+const fadeInAnimation = keyframes`${fadeIn}`;
+
 export const TextOnImage = styled.div`
   font-family: 'Raleway', sans-serif;
   position: absolute;
@@ -52,6 +54,7 @@ export const TextOnImage = styled.div`
   color: ${colors.black};
   font-weight: bolder;
   letter-spacing: 7px;
+  animation: 2.5s ${fadeInAnimation};
 
   @media (min-width: 600px) {
     top: 49%;
@@ -70,7 +73,7 @@ export const TextOnImage2 = styled.div`
   color: ${colors.black};
   font-weight: bolder;
   letter-spacing: 7px;
-
+  animation: 2.5s ${fadeInAnimation};
   @media (min-width: 768px) {
     font-size: ${({ fontsize }) => (fontsize ? fontsize : '2em')};
   }
@@ -98,8 +101,6 @@ export const SubText = styled.p`
     max-width: 45%;
   }
 `;
-
-const fadeInAnimation = keyframes`${fadeIn}`;
 
 export const Image = styled.img`
   margin-left: auto;

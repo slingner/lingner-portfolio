@@ -82,7 +82,7 @@ export const ResumeLink = styled.a`
   color: ${(props) => (props.color ? props.color : 'rgb(35, 35, 35)')};
   text-decoration: none;
 
-  margin: 15px auto;
+  margin-top: 15px auto;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
 
