@@ -27,21 +27,21 @@ function Contact() {
       </EmailLink>
 
       <ResumeLink
-        href='https://scott-lingner-portfolio.s3-us-west-1.amazonaws.com/Scott_Lingner_Resume.pdf'
+        href='https://www.notion.so/Scott-Lingner-Resume-579ea972f8164e11a28af799a0d16a02'
         target='_blank'
         rel='nofollow noopener noreferrer'
         aria-label="Link To Scott Lingner's Resume"
       >
         RESUME
       </ResumeLink>
-      <ResumeLink
+      {/* <ResumeLink
         href='https://coverstory.page/profile/slingner'
         target='_blank'
         rel='nofollow noopener noreferrer'
         aria-label="Link To Scott Lingner's Video Cover Letter"
       >
         VIDEO COVER
-      </ResumeLink>
+      </ResumeLink> */}
 
       <ContactConentWrap>
         <LinkWrap
