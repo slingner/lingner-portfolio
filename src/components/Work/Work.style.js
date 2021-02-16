@@ -2,6 +2,7 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { colors } from '../constants';
+
 import { ReactComponent as FokulLogo } from './Assets/FOLKUL_1.svg';
 import { ReactComponent as FilterLogo } from './Assets/filter.svg';
 import { ReactComponent as FrenchMoi } from './Assets/frenchmoi.svg';

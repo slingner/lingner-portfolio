@@ -10,7 +10,6 @@ import {
   StyledP,
   PageHeader,
 } from '../Work/Work.style';
-import FrenchMoiPng from './frenchmoi.png';
 
 export default function FrenchMoi() {
   return (
@@ -23,9 +22,9 @@ export default function FrenchMoi() {
       }}
     >
       <LinkWrap
-        href="https://frenchmoi.now.sh/"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://frenchmoi.now.sh/'
+        target='_blank'
+        rel='noopener noreferrer'
         aria-label="Live Link to Scott Lingner's French Moi Spaced Repetition App "
       >
         <FrenchMoiLogo2 aria-label="Logo of Scott Lingner's French Moi App" />
@@ -37,32 +36,18 @@ export default function FrenchMoi() {
 
       <StyledP style={{ color: colors.white }}>
         French Moi is an app that utilizes spaced repetition to help users
-        memorize French words. The user will have the option to login or signup,
-        and then will be directed to a dashboard displaying their total correct
-        answers, a list of French words to memorize, as well as the overall
-        number count for correct and incorrect answers.
+        memorize French words.
       </StyledP>
-      <LinkWrap
-        href="https://frenchmoi.now.sh/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Live Link to Scott Lingner's French Moi Spaced Repetition App "
-      >
-        <img
-          src={FrenchMoiPng}
-          alt="Scott Lingner Filter App Screenshot"
-          style={{ height: 'auto', width: '80%', margin: 'auto' }}
-        />
-      </LinkWrap>
+
       <TechWrapper>
         <LinkWrap
-          href="https://github.com/thinkful-ei-jaguar/FrenchMe-Client-Robert-Scott"
-          rel="noreferrer noopener"
-          target="_blank"
+          href='https://github.com/thinkful-ei-jaguar/FrenchMe-Client-Robert-Scott'
+          rel='noreferrer noopener'
+          target='_blank'
           aria-label="Github Link to Scott Lingner's French Moi Spaced Repetition App "
         >
           <p
-            className="linktext"
+            className='linktext'
             aria-label="Link To Scott Lingner's Github For French Moi App"
             style={{ color: colors.white, border: '1px solid white' }}
           >
@@ -71,14 +56,14 @@ export default function FrenchMoi() {
         </LinkWrap>
 
         <LinkWrap
-          href="https://frenchmoi.now.sh/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://frenchmoi.now.sh/'
+          target='_blank'
+          rel='noopener noreferrer'
           aria-label="Live Link to Scott Lingner's French Moi Spaced Repetition App"
         >
           {' '}
           <p
-            className="linktext"
+            className='linktext'
             aria-label="Link To Scott Lingner's French Moi Live App"
             style={{ color: colors.white, border: '1px solid white' }}
           >
@@ -88,13 +73,13 @@ export default function FrenchMoi() {
       </TechWrapper>
 
       <TechWrapper>
-        <ReactLogo aria-label="React logo" style={{ color: colors.white }} />
-        <CssLogo aria-label="Css Logo" style={{ color: colors.white }} />
-        <PostgresLogo2 aria-label="PostgreSQL" />
-        <NodeLogo aria-label="Node.js Logo" style={{ color: colors.white }} />
+        <ReactLogo aria-label='React logo' style={{ color: colors.white }} />
+        <CssLogo aria-label='Css Logo' style={{ color: colors.white }} />
+        <PostgresLogo2 aria-label='PostgreSQL' />
+        <NodeLogo aria-label='Node.js Logo' style={{ color: colors.white }} />
       </TechWrapper>
 
-      <PageHeader id="about" style={{ color: colors.white }}>
+      <PageHeader id='about' style={{ color: colors.white }}>
         About
       </PageHeader>
     </ContentWrapper>

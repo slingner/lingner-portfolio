@@ -10,15 +10,15 @@ import {
   StyledComponentsLogo1,
   StyledP,
 } from '../Work/Work.style';
-import FolkulPng from './folkul.png';
+// import FolkulPng from './folkul.png';
 
 export default function Folkul() {
   return (
     <ContentWrapper style={{ backgroundColor: '#7cbabf' }}>
       <LinkWrap
-        href="https://folkul.now.sh"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://folkul.now.sh'
+        target='_blank'
+        rel='noopener noreferrer'
         aria-label="Live Link to Scott Lingner's Folkul App "
       >
         <FolkulLogo1 aria-label="Logo and Link to Scott Lingner's Folkul App" />
@@ -26,11 +26,9 @@ export default function Folkul() {
       <ProjectSubHeader>A Thought-Sharing Social Network</ProjectSubHeader>
       <StyledP style={{ color: colors.darkergrey }}>
         Folkul is a place where you can privately gather your thoughts - this
-        can be small ideas to the next greatest invention. You can connect to
-        other users and then share this idea with them - getting criticism,
-        feedback and overall collaboration.
+        can be small ideas to the next greatest invention.
       </StyledP>
-      <LinkWrap
+      {/* <LinkWrap
         href="https://folkul.now.sh"
         target="_blank"
         rel="noopener noreferrer"
@@ -41,30 +39,30 @@ export default function Folkul() {
           alt="Scott Lingner Filter App Screenshot"
           style={{ height: 'auto', width: '80%', margin: 'auto' }}
         />
-      </LinkWrap>
+      </LinkWrap> */}
       <TechWrapper>
         <LinkWrap
-          href="https://github.com/kraigwilliams/motive-client"
-          rel="noreferrer noopener"
-          target="_blank"
+          href='https://github.com/kraigwilliams/motive-client'
+          rel='noreferrer noopener'
+          target='_blank'
           aria-label="Github Link to Scott Lingner's Folkul App "
         >
           <p
             aria-label="Github Text and Link to Scott Lingner's Folkul App"
-            className="linktext"
+            className='linktext'
           >
             Github
           </p>
         </LinkWrap>
         <LinkWrap
-          href="https://folkul.now.sh"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://folkul.now.sh'
+          target='_blank'
+          rel='noopener noreferrer'
           aria-label="Live Link to Scott Lingner's Folkul App"
         >
           <p
             aria-label="Live Link and text to Scott Lingner's Folkul App"
-            className="linktext"
+            className='linktext'
           >
             Live
           </p>
@@ -72,10 +70,10 @@ export default function Folkul() {
       </TechWrapper>
 
       <TechWrapper>
-        <ReactLogo aria-label="React Logo" />
-        <StyledComponentsLogo1 aria-label="Styled Components Logo" />
-        <PostgresLogo2 aria-label="PostgreSQL Logo" />
-        <NodeLogo aria-label="Node.js Logo" />
+        <ReactLogo aria-label='React Logo' />
+        <StyledComponentsLogo1 aria-label='Styled Components Logo' />
+        <PostgresLogo2 aria-label='PostgreSQL Logo' />
+        <NodeLogo aria-label='Node.js Logo' />
       </TechWrapper>
     </ContentWrapper>
   );
