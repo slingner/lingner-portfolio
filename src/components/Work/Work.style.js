@@ -104,6 +104,16 @@ export const Image = styled.img`
   }
 `;
 
+export const PrendaImage = styled.img`
+  border-radius: 5px;
+  width: 65%;
+
+  @media (min-width: 600px) {
+    width: 30%;
+    height: auto;
+  }
+`;
+
 export const FolkulLogo1 = (props) => {
   return (
     <>

@@ -5,7 +5,7 @@ import {
   ProjectSubHeader,
   LinkWrap,
   StyledP,
-  Image,
+  PrendaImage,
 } from '../Work/Work.style';
 import Prenda from './prenda.png';
 
@@ -18,7 +18,7 @@ export default function Folkul() {
         rel='noopener noreferrer'
         aria-label='Live Link to Prenda Inc'
       >
-        <Image src={Prenda} alt='prenda logo' />
+        <PrendaImage src={Prenda} alt='prenda logo' />
       </LinkWrap>
       <ProjectSubHeader>Empowering Learners</ProjectSubHeader>
       <StyledP style={{ color: colors.darkergrey }}>
