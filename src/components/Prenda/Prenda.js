@@ -20,10 +20,10 @@ export default function Folkul() {
       >
         <PrendaImage src={Prenda} alt='prenda logo' />
       </LinkWrap>
-      <ProjectSubHeader>Empowering Learners</ProjectSubHeader>
+      <ProjectSubHeader>School Reimagined</ProjectSubHeader>
       <StyledP style={{ color: colors.darkergrey }}>
-        As a Software Developer for Prenda, I build products that inspire and
-        motivate.
+        As a software developer for Prenda, I design and improve products that
+        help guide and support learners.
       </StyledP>
     </ContentWrapper>
   );
