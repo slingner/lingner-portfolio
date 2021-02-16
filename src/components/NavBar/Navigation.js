@@ -68,7 +68,7 @@ const Navigation = (props) => {
           onClick={props.toggleNav}
           color={props.color}
         >
-          PROJECTS
+          WORK
         </NavItem>
       </li>
 
